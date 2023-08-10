@@ -1,0 +1,72 @@
+name: "Smartcat Translation Import/Export"
+description: "Import and Export translation files using Smartcat API"
+inputs:
+  actionType:
+    description: "Action to perform (import/export)"
+    required: true
+  apiServer:
+    description: "API Server URL"
+    required: true
+  apiToken:
+    description: "API Token"
+    required: true
+  accountID:
+    description: "Account ID"
+    required: true
+  projectID:
+    description: "Project ID"
+    required: true
+  languages:
+    description: "Languages for export"
+    required: false
+  format:
+    description: "File format for export"
+    required: false
+  pathSeparator:
+    description: "Path separator for export"
+    required: false
+  completionState:
+    description: "Completion state for export"
+    required: false
+  exportIncompleteAsBlank:
+    description: "Export incomplete as blank option"
+    required: false
+  skipIncompleteKeys:
+    description: "Skip incomplete keys option"
+    required: false
+  outputFilePathTemplate:
+    description: "Output file path template for export"
+    required: false
+  includeDefaultLanguage:
+    description: "Include default language option"
+    required: false
+  collections:
+    description: "Collections for export"
+    required: false
+  fallbackToDefaultLanguage:
+    description: "Fallback to default language option"
+    required: false
+  zip:
+    description: "Zip option for export"
+    required: false
+  labels:
+    description: "Labels for import"
+    required: false
+  skipConflictingValues:
+    description: "Skip conflicting values option for import"
+    required: false
+  collection:
+    description: "Collection for import"
+    required: false
+  overwriteConflictingValues:
+    description: "Overwrite conflicting values option for import"
+    required: false
+  autoFileLabels:
+    description: "Auto file labels option for import"
+    required: false
+  files:
+    description: "Files for import (handle appropriately in the code)"
+    required: false
+runs:
+  using: "node18"
+  main: "index.js"

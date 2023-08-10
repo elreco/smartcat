@@ -1,0 +1,26 @@
+name: Test Export Smartcat Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  export_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Export Data Using Smartcat API
+        uses: action.yml
+        with:
+          actionType: 'export'
+          accountID: 'c5a662fe-66ae-4793-ae1a-9e386d03a7a0'
+          apiToken: '2_XQQLY543auuTp2Ss8ZOPs1L7k'
+          projectID: '85381a5c-a1ce-4301-a4e0-548a8869ac64'
+          apiServer: 'https://smartcat.com'
+          languages: 'en'
+          outputPath: './'
+
+      - name: Check Output
+        run: ls output/path
