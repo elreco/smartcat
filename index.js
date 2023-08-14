@@ -108,8 +108,16 @@ async function run() {
       return;
     }
     if (!fs.existsSync(outputPath)) {
-      await fs.promises.mkdir(outputPath, { recursive: true });
+      try {
+        await fs.promises.mkdir(outputPath, { recursive: true });
+        core.info(`Dossier créé: ${outputPath}`);
+      } catch (error) {
+        core.error(`Erreur lors de la création du dossier: ${error}`);
+      }
+    } else {
+      core.info(`Dossier existe déjà: ${outputPath}`);
     }
+
     const zipPath = path.join(outputPath, "export.zip");
 
     const writeStream = fs.createWriteStream(zipPath);
