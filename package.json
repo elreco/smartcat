@@ -11,5 +11,22 @@
     "@actions/github": "^5.1.1",
     "axios": "^1.4.0",
     "unzipper": "^0.10.14"
-  }
+  },
+  "devDependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "axios": "^1.4.0",
+    "unzipper": "^0.10.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elreco/smartcat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elreco/smartcat/issues"
+  },
+  "homepage": "https://github.com/elreco/smartcat#readme"
 }

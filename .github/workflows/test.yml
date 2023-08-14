@@ -6,13 +6,12 @@ on:
 jobs:
   export_data:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-
-      - name: Export Data Using Smartcat API
-        uses: action.yml
+      - uses: actions/checkout@v3
+      - name: Install Dependencies
+        run: npm install
+      - name: Smartcat Translation Import/Export
+        uses: ./
         with:
           actionType: 'export'
           accountID: 'c5a662fe-66ae-4793-ae1a-9e386d03a7a0'
@@ -21,6 +20,3 @@ jobs:
           apiServer: 'https://smartcat.com'
           languages: 'en'
           outputPath: './'
-
-      - name: Check Output
-        run: ls output/path

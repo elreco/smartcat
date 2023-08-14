@@ -1,10 +1,10 @@
-const axios = require("axios");
 const core = require("@actions/core");
-const fs = require("fs");
+const fs = require('fs').promises;
 const path = require("path");
 const unzipper = require("unzipper");
-const { execSync } = require('child_process');
-const github = require('@actions/github');
+const axios = require('axios');
+const { context: githubContext } = require('@actions/github');
+const { Octokit } = require('@actions/github');
 
 async function run() {
   try {
@@ -31,9 +31,7 @@ async function run() {
       const outputFilePathTemplate = core.getInput("outputFilePathTemplate");
       const includeDefaultLanguage = core.getInput("includeDefaultLanguage");
       const collections = core.getInput("collections");
-      const fallbackToDefaultLanguage = core.getInput(
-        "fallbackToDefaultLanguage"
-      );
+      const fallbackToDefaultLanguage = core.getInput("fallbackToDefaultLanguage");
       const zip = core.getInput("zip");
       const outputPath = core.getInput("outputPath");
 
@@ -66,28 +64,47 @@ async function run() {
       url = `${apiServer}/api/integration/v1/document/export/${result.data}`;
       const response = await axios(url, { auth: auth, responseType: "arraybuffer" });
       const zipPath = path.join(outputPath, "export.zip");
-      fs.writeFileSync(zipPath, response.data);
+      await fs.writeFile(zipPath, response.data);
 
       if (zipPath.endsWith(".zip")) {
         await fs.createReadStream(zipPath).pipe(unzipper.Extract({ path: outputPath }));
       }
 
-      const currentBranch = github.context.ref.replace('refs/heads/', '');
-
+      const currentBranch = githubContext.ref.replace('refs/heads/', '');
       const newBranch = currentBranch + '-export-update';
-
-      execSync(`git config user.name "Your Name"`);
-      execSync(`git config user.email "your.email@example.com"`);
-      execSync(`git checkout -b ${newBranch}`);
-      execSync(`cp -r ${outputPath}/* .`);
-      execSync(`git add .`);
-      execSync(`git commit -m "Add export data"`);
-      execSync(`git push origin ${newBranch}`);
-
       const token = process.env.GITHUB_TOKEN;
-      const octokit = github.getOctokit(token);
-      const { repo, owner } = github.context.repo;
+      const octokit = new Octokit({ auth: token });
+      const { repo, owner } = githubContext.repo;
 
+      const { data: baseBranch } = await octokit.git.getRef({
+        owner,
+        repo,
+        ref: `heads/${currentBranch}`,
+      });
+
+      await octokit.git.createRef({
+        owner,
+        repo,
+        ref: `refs/heads/${newBranch}`,
+        sha: baseBranch.object.sha,
+      });
+
+      const files = await fs.readdir(outputPath);
+      for (const file of files) {
+        const filePath = path.join(outputPath, file);
+        const content = await fs.readFile(filePath, "base64");
+
+        await octokit.repos.createOrUpdateFileContents({
+          owner,
+          repo,
+          path: file,
+          message: "Add export data",
+          content,
+          branch: newBranch,
+        });
+      }
+
+      // Créer une pull request
       await octokit.pulls.create({
         owner,
         repo,
@@ -95,8 +112,8 @@ async function run() {
         head: newBranch,
         base: currentBranch,
       });
-
-    } else if (actionType === "import") {
+    }
+     else if (actionType === "import") {
       const format = core.getInput("format");
       const labels = core.getInput("labels");
       const pathSeparator = core.getInput("pathSeparator");
