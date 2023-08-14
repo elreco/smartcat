@@ -67,6 +67,9 @@ inputs:
   files:
     description: "Files for import (handle appropriately in the code)"
     required: false
+  githubToken:
+    description: "GitHub token for authentication"
+    required: false
   outputPath:
     description: "Output path for file export (handle appropriately in the code)"
     required: false

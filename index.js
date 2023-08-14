@@ -1,18 +1,19 @@
 const core = require("@actions/core");
-const fs = require('fs').promises;
+const fs = require('fs');
 const path = require("path");
 const unzipper = require("unzipper");
 const axios = require('axios');
 const { context: githubContext } = require('@actions/github');
-const { Octokit } = require('@actions/github');
+const { Octokit } = require("@octokit/rest");
+const fetch = require('node-fetch')
 
 async function run() {
-  try {
     const actionType = core.getInput("actionType");
     const accountID = core.getInput("accountID");
     const apiToken = core.getInput("apiToken");
     const projectID = core.getInput("projectID");
     const apiServer = core.getInput("apiServer");
+    const githubToken = core.getInput('githubToken');
 
     const auth = {
       username: accountID,
@@ -39,12 +40,12 @@ async function run() {
         throw new Error('Missing required parameter "outputPath" for export action.');
       }
 
-      const url = `${apiServer}/api/integration/v2/project/${projectID}/export`;
+      let url = `${apiServer}/api/integration/v2/project/${projectID}/export`;
 
       const options = {
         auth: auth,
         method: "POST",
-        params: {
+        data: {
           languages,
           format,
           "path-separator": pathSeparator,
@@ -62,18 +63,37 @@ async function run() {
       result = await axios(url, options);
 
       url = `${apiServer}/api/integration/v1/document/export/${result.data}`;
-      const response = await axios(url, { auth: auth, responseType: "arraybuffer" });
+      const response = await axios({
+        url: url,
+        method: 'GET',
+        responseType: 'stream',
+        auth: auth
+      });
+
       const zipPath = path.join(outputPath, "export.zip");
-      await fs.writeFile(zipPath, response.data);
+      const writeStream = fs.createWriteStream(zipPath);
+      response.data.pipe(writeStream);
+
+      await new Promise((resolve, reject) => {
+        writeStream.on('finish', resolve);
+        writeStream.on('error', reject);
+      });
 
       if (zipPath.endsWith(".zip")) {
-        await fs.createReadStream(zipPath).pipe(unzipper.Extract({ path: outputPath }));
+        await new Promise((resolve, reject) => {
+          const stream = fs.createReadStream(zipPath).pipe(unzipper.Extract({ path: outputPath }));
+          stream.on('error', reject);
+          stream.on('finish', resolve);
+        });
       }
+
 
       const currentBranch = githubContext.ref.replace('refs/heads/', '');
       const newBranch = currentBranch + '-export-update';
-      const token = process.env.GITHUB_TOKEN;
-      const octokit = new Octokit({ auth: token });
+      const token = githubToken || process.env.GITHUB_TOKEN;
+      const octokit = new Octokit({ auth: token, request: {
+        fetch: fetch,
+      }, });
       const { repo, owner } = githubContext.repo;
 
       const { data: baseBranch } = await octokit.git.getRef({
@@ -82,12 +102,12 @@ async function run() {
         ref: `heads/${currentBranch}`,
       });
 
-      await octokit.git.createRef({
+      await octokit.rest.git.createRef({
         owner,
         repo,
         ref: `refs/heads/${newBranch}`,
         sha: baseBranch.object.sha,
-      });
+      })
 
       const files = await fs.readdir(outputPath);
       for (const file of files) {
@@ -104,7 +124,6 @@ async function run() {
         });
       }
 
-      // Créer une pull request
       await octokit.pulls.create({
         owner,
         repo,
@@ -130,7 +149,7 @@ async function run() {
       const options = {
         auth: auth,
         method: "POST",
-        params: {
+        data: {
           format,
           labels,
           "path-separator": pathSeparator,
@@ -151,9 +170,6 @@ async function run() {
       );
     }
     core.setOutput("result", result.data);
-  } catch (error) {
-    core.setFailed(error.message);
-  }
 }
 
 run();
