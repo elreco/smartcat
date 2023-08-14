@@ -18,5 +18,10 @@ jobs:
           apiToken: '2_XQQLY543auuTp2Ss8ZOPs1L7k'
           projectID: '85381a5c-a1ce-4301-a4e0-548a8869ac64'
           apiServer: 'https://smartcat.com'
-          languages: 'en'
-          outputPath: './'
+          languages: 'en,fr,es'
+          pathSeparator: '/'
+          format: 'structured-json'
+          outputFilePathTemplate: '{LANGUAGE}.json'
+          outputPath: './languages'
+          skipIncompleteKeys: true
+          githubToken: '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'

@@ -46,9 +46,6 @@ inputs:
   fallbackToDefaultLanguage:
     description: "Fallback to default language option"
     required: false
-  zip:
-    description: "Zip option for export"
-    required: false
   labels:
     description: "Labels for import"
     required: false
@@ -66,6 +63,9 @@ inputs:
     required: false
   files:
     description: "Files for import (handle appropriately in the code)"
+    required: false
+  githubToken:
+    description: "GitHub token for authentication"
     required: false
   outputPath:
     description: "Output path for file export (handle appropriately in the code)"
