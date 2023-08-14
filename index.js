@@ -108,8 +108,16 @@ async function run() {
       return;
     }
     if (!fs.existsSync(outputPath)) {
-      await fs.promises.mkdir(outputPath, { recursive: true });
+      try {
+        await fs.promises.mkdir(outputPath, { recursive: true });
+        core.info(`Dossier créé: ${outputPath}`);
+      } catch (error) {
+        core.error(`Erreur lors de la création du dossier: ${error}`);
+      }
+    } else {
+      core.info(`Dossier existe déjà: ${outputPath}`);
     }
+
     const zipPath = path.join(outputPath, "export.zip");
 
     const writeStream = fs.createWriteStream(zipPath);
@@ -177,13 +185,12 @@ async function run() {
 
       if (stats.isFile()) {
         const content = await fsPromises.readFile(filePath, "base64");
-
         let sha;
         try {
           const { data } = await octokit.repos.getContent({
             owner,
             repo,
-            path: file,
+            path: filePath,
             ref: newBranch,
           });
           sha = data.sha;
@@ -191,7 +198,7 @@ async function run() {
         await octokit.repos.createOrUpdateFileContents({
           owner,
           repo,
-          path: file,
+          path: filePath,
           message: "Add export data",
           content,
           branch: newBranch,
