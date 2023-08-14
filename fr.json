@@ -1,0 +1,4225 @@
+{
+  "accessDenied": {
+    "title": {
+      "contests": "Jeux concours"
+    },
+    "subtitle": {
+      "contests": "Boostez vos avis Google, vos followers et vos données clients"
+    },
+    "how": "Comment ça marche ?",
+    "steps": {
+      "contests": {
+        "1": "Vos clients accèdent à votre jeu concours via un QR code sur un support physique ou via un lien que vous leur partagez",
+        "2": "Ils vous laissent un avis, ou un follow sur vos réseaux pour tenter de gagner un cadeau",
+        "3": "Résultat ? 1er sur les moteurs de recherche, plus de followers et plus de données clients"
+      }
+    },
+    "buttons": {
+      "contests": {
+        "primary": "Créer un jeu concours",
+        "secondary": "Voir l'aperçu"
+      }
+    },
+    "button": "Tester cette fonctionnalité",
+    "description": {
+      "autopilots": "Notre assistant marketing automatise vos communications pour faire revenir vos clients. Nous prenons soin de vos fidèles, nous relançons les clients perdus pour booster votre chiffre d'affaires.",
+      "contests": "Grâce aux jeux concours, récupérez de la donnée client de manière ludique. Partagez votre jeu concours sur les réseaux sociaux ou sur votre packaging et boostez vos avis en demandant aux participants de vous laisser un avis avant de jouer",
+      "crm": "Collectez à chaque visite des infos comme le genre, l'âge, les habitudes de consommations afin de rendre la relation unique avec chacun d'entre eux.",
+      "missedCalls": "Grâce aux appels manqués ne perdez plus aucun client, convertissez vos appels manqués en chiffre d’affaires",
+      "online-ordering": "Faites grandir votre commerce grâce à la commande en ligne et boostez vraiment votre chiffre d'affaires.",
+      "review": "Grâce au module d'avis clients, gagnez du temps en gérant tous vos avis clients à un seul et même endroit. Générez de nouveaux avis positifs de manière automatisée, sans avoir à lever le petit doigt.",
+      "survey": "Interagissez avec vos clients et créez une relation unique avec chacun d'eux en leur posant directement des questions sur votre tablette Pongo et en ayant accès à leurs réponses en temps réel."
+    },
+    "requires": "Cette fonctionnalité nécessite le module { offer }",
+    "noAccess": "Vous n'avez pas accès à cette fonctionnalité"
+  },
+  "forbidden": {
+    "back": "Revenir à l'accueil",
+    "description": {
+      "access": "L'accès à cette fonctionnalité ne vous est pas autorisé par vos administrateurs.",
+      "contact": "Veuillez les contacter si vous pensez que c'est une erreur."
+    },
+    "title": "Accès non autorisé !"
+  },
+  "global": {
+    "autopilots": {
+      "CustomerAtRisk": {
+        "description": "Ne perdez plus aucun client en envoyant un message à ceux qui ne sont pas venus depuis longtemps",
+        "name": "Rattraper les clients perdus",
+        "trigger": "Lorsqu'un client n'est pas venu depuis 3 mois"
+      },
+      "CustomerBirthday": {
+        "description": "Créez de l'hyperproximité avec vos clients en leur souhaitant leur anniversaire et profitez de cet évènement pour les faire revenir",
+        "name": "Célébrer les anniversaires",
+        "trigger": "Losqu'un client fête son anniversaire"
+      },
+      "CustomerNew": {
+        "description": "Faites revenir les nouveaux clients en leur envoyant un message juste après leur inscription",
+        "name": "Accueillir les nouveaux",
+        "trigger": "Lorsqu'un client vient de s'inscrire au programme de fidélité"
+      },
+      "CustomerVip": {
+        "description": "Faites de vos VIP des ambassadeurs de votre marque en leur envoyant un message pour leur demander de vous mettre un avis Google par exemple",
+        "name": "Créer vos ambassadeurs",
+        "trigger": "Lorsqu'un client est devenu VIP"
+      },
+      "LoyaltyRewardAvailable": {
+        "description": "Augmentez votre fréquence de visites en rappelant à vos clients qu'ils sont proches de gagner une récompense",
+        "name": "Relancer les clients proches de remporter une récompense",
+        "trigger": "Lorsqu'un client est proche de remporter une récompense"
+      },
+      "LoyaltyRewardClaimed": {
+        "description": "Envoyez un message aux clients qui viennent de gagner une récompense et profitez de ce moment heureux pour leur demander de vous mettre un avis sur Google",
+        "name": "Solliciter les chanceux",
+        "trigger": "Lorsqu'un client a gagné une récompense"
+      }
+    },
+    "checkboxes": {
+      "checkAll": "Tout sélectionner",
+      "uncheckAll": "Tout désélectionner"
+    },
+    "copyToClipboard": {
+      "error": "Erreur lors de la copie vers le presse-papier",
+      "success": "Le contenu a été copié dans le presse-papier"
+    },
+    "download": {
+      "batch": {
+        "success": "Votre export sera disponible en téléchargement dans les plus brefs délais"
+      },
+      "error": "Une erreur est survenue lors du téléchargement",
+      "success": "Le fichier est en cours de téléchargement"
+    },
+    "filters": {
+      "buttons": {
+        "cancel": "Annuler",
+        "close": "Fermer",
+        "submit": "Valider"
+      },
+      "title": "Filtres"
+    },
+    "frequencyTypes": {
+      "<": "moins de",
+      "<=": "moins de",
+      ">": "plus de",
+      ">=": "plus de",
+      "AT_RISK": "À risque",
+      "averageMonthlyCheckin": "Vient en moyenne {operator} {number} fois par mois",
+      "checkinCount": "Est venu {operator} {number} fois",
+      "daysSinceLastCheckin": "N'est pas revenu depuis {operator} {number} jour(s)",
+      "daysSinceRegister": "Est inscrit depuis {operator} {number} jour(s)",
+      "NEW": "Nouveau",
+      "OCCASIONAL": "Ponctuel",
+      "VIP": "VIP"
+    },
+    "gender": {
+      "female": "Femme",
+      "male": "Homme",
+      "man": "Homme",
+      "name": "Genre",
+      "namePlural": "Genres",
+      "unknown": "Inconnu",
+      "woman": "Femme"
+    },
+    "languages": {
+      "error": {
+        "update": "Une erreur est survenue lors de la mise à jour de la langue"
+      }
+    },
+    "loading": {
+      "chart": "Chargement du graphique"
+    },
+    "months": {
+      "10": "Octobre",
+      "11": "Novembre",
+      "12": "Décembre",
+      "01": "Janvier",
+      "02": "Février",
+      "03": "Mars",
+      "04": "Avril",
+      "05": "Mai",
+      "06": "Juin",
+      "07": "Juillet",
+      "08": "Août",
+      "09": "Septembre"
+    },
+    "partner": {
+      "linkText": "Compris ! 😀",
+      "text": {
+        "lightspeed": "Il ne reste qu'une dernière étape avant de pouvoir profiter de votre intégration Pongo x Lightspeed ! Poursuivez la configuration de votre tablette afin de la relier à votre caisse.",
+        "shopify": "Votre boutique Shopify est maintenant liée à votre compte Pongo !"
+      },
+      "title": "Félicitations"
+    },
+    "persona": {
+      "age": "{age} ans",
+      "monthlyVisitsFrequency": "visite / mois | visites / mois",
+      "monthsPerVisitFrequency": "~ 1 visite tous les {months} mois",
+      "points": "{points} points",
+      "sold": "{number} {name} vendus"
+    },
+    "shortMonths": {
+      "10": "Oct",
+      "11": "Nov",
+      "12": "Déc",
+      "01": "Janv",
+      "02": "Févr",
+      "03": "Mars",
+      "04": "Avr",
+      "05": "Mai",
+      "06": "Juin",
+      "07": "Juill",
+      "08": "Août",
+      "09": "Sept"
+    },
+    "types": {
+      "calls": "Appels",
+      "channel": "Canal de vente",
+      "clickncollect": "Click'n'collect",
+      "contest-game": "Jeu concours",
+      "contest-game-qrcode": "QRCode",
+      "contest-game-web": "Web",
+      "customer": "Customer",
+      "deliveroo": "Deliveroo",
+      "delivery-platforms": "Plateformes de livraison",
+      "in-situ": "Sur place",
+      "in-store": "Commande en boutique",
+      "influencer": "Influenceur",
+      "just-eat": "Just Eat",
+      "loyalty-program": "Programme de fidélité",
+      "loyalty-program-order-terminal": "Borne",
+      "loyalty-program-tablet": "Tablette",
+      "loyalty-program-web": "Web",
+      "marketing": "Module Pongo",
+      "online-ordering": "Commande en ligne",
+      "own-delivery": "Livraison en propre",
+      "take-away": "À emporter",
+      "uber-eats": "Uber Eats"
+    },
+    "words": {
+      "cancel": "Annuler",
+      "characters": "caractères",
+      "close": "Fermer",
+      "copy": "Copier",
+      "dateAtTime": "à",
+      "disabled": "Désactivé",
+      "download": "Télécharger",
+      "edit": "Éditer",
+      "enabled": "Activé",
+      "loading": "Chargement",
+      "logout": "Se déconnecter",
+      "no": "Non",
+      "save": "Enregistrer",
+      "saving": "Enregistrement en cours",
+      "search": "Rechercher",
+      "soon": "Bientôt",
+      "store": "boutique | boutiques",
+      "submit": "Valider",
+      "today": "Aujourd'hui",
+      "use": "Utiliser",
+      "visit": "visite | visites",
+      "yes": "Oui",
+      "month": "mois",
+      "noResult": "Aucun résultat"
+    }
+  },
+  "inputsValidation": {
+    "text": "L'expéditeur SMS doit comporter entre 3 et 11 caractères et ne doit pas contenir de caractères spéciaux"
+  },
+  "integrations": {
+    "lightspeed_pongo_c_and_c": {
+      "description": "Connectez notre module de commande en ligne à Lightspeed et recevez toutes vos commandes en ligne directement dans votre caisse",
+      "name": "Lightspeed & Siouplait, by Pongo"
+    },
+    "lightspeed": {
+      "description": "Connectez vos tablettes Pongo à vos caisses Lightspeed pour corréler les points gagnés au montant dépensé par chacun de vos clients",
+      "name": "Lightspeed",
+      "auth": {
+        "whichStore": "À quelle boutique Lightspeed souhaitez-vous relier cette tablette ?"
+      }
+    },
+    "menlog": {
+      "description": "Connectez vos tablettes Pongo à vos caisses Menlog pour corréler les points gagnés au montant dépensé par chacun de vos clients",
+      "name": "Menlog"
+    },
+    "shopify": {
+      "description": "Récompensez aussi vos clients qui commandent en ligne, en connectant Pongo à votre site Shopify",
+      "name": "Shopify",
+      "auth": {
+        "whichStore": "À quelle boutique Shopify souhaitez-vous relier cette tablette ?"
+      }
+    },
+    "siouplait": {
+      "description": "Utilisez notre module de commande en ligne et récompensez vos clients qui commandent en click&collect",
+      "name": "Siouplait, by Pongo"
+    },
+    "tabesto": {
+      "description": "Intégrez votre programme de fidélité dans vos bornes de commandes : vos clients gagnent des points et obtiennent leurs récompenses directement dans la borne !",
+      "name": "Tabesto"
+    },
+    "tillersystems": {
+      "description": "Connectez vos tablettes Pongo à vos caisses SUMUP (ex Tiller)  pour corréler les points de fidélité au montant dépensé par chacun de vos clients",
+      "name": "SUMUP (ex Tiller Systems)"
+    },
+    "woocommerce": {
+      "description": "Récompensez aussi vos clients qui commandent en ligne, en connectant Pongo à votre site WooCommerce",
+      "name": "WooCommerce"
+    },
+    "zelty_online": {
+      "description": "Récompensez vos clients qui commandent en click&collect, en connectant Pongo à votre module de commande Zelty",
+      "name": "Zelty Click and Collect"
+    },
+    "zelty_pongo_c_and_c": {
+      "description": "Connectez notre module de commande en ligne à Zelty et recevez toutes vos commandes en ligne directement dans votre caisse",
+      "name": "Zelty & Siouplait, by Pongo"
+    },
+    "zelty": {
+      "description": "Connectez vos tablettes Pongo à vos caisses Zelty pour corréler les points gagnés au montant dépensé par chacun de vos clients",
+      "name": "Zelty"
+    },
+    "square": {
+      "description": "Récompensez aussi vos clients qui commandent en ligne, en connectant Pongo à votre magasin en ligne Square",
+      "name": "Square"
+    },
+    "fuso": {
+      "name": "Fuso"
+    },
+    "laddition": {
+      "description": "La solution complète de L’Addition permet de tout gérer de la prise de commande à l’encaissement ! Grâce à de nombreux services associés à la caisse enregistreuse (Paiement à table, réservation...), boostez votre croissance !",
+      "name": "L'addition"
+    },
+    "izipass": {
+      "name": "Izipass"
+    },
+    "whichStore": "À quelle boutique {name} souhaitez-vous relier cette tablette ?"
+  },
+  "signup": {
+    "title": {
+      "account": "Prêt.e à démarrer l'aventure Hey Pongo ?",
+      "business": "Quelques détails sur votre business"
+    },
+    "account": {
+      "or": "ou",
+      "alreadyHaveAnAccount": "Vous avez déjà un compte ?",
+      "login": "Se connecter",
+      "form": {
+        "labels": {
+          "email": "Adresse e-mail",
+          "password": "Mot de passe",
+          "iAccept": "Je reconnais avoir pris connaissance et j’accepte les",
+          "terms": "conditions générales d’utilisation"
+        },
+        "placeholder": {
+          "password": "8 caractères ou plus"
+        },
+        "errors": {
+          "email": "Le format de votre adresse email n’est pas valide. Veuillez réessayer",
+          "password": "Votre mot de passe doit contenir au moins 8 caractères",
+          "terms": "Veuillez accepter les conditions générales d’utilisation pour créer votre compte",
+          "submit": "Nous n'avons pas réussi à créer votre compte, veuillez réessayer ultérieurement",
+          "passwordSpaces": "Le mot de passe ne contient que des espaces, veuillez le modifier"
+        },
+        "create": "Créer mon compte"
+      },
+      "socials": {
+        "google": "Continuer avec Google",
+        "facebook": "Continuer avec Facebook"
+      }
+    },
+    "business": {
+      "form": {
+        "labels": {
+          "lastName": "Nom",
+          "name": "Prénom",
+          "businessName": "Nom de votre business",
+          "phone": "Numéro de téléphone",
+          "activityTypes": "Typologie d’activité",
+          "multipleChoices": "Plusieurs choix possibles",
+          "goal": "Quel est votre principal objectif ?",
+          "physical": "Un business physique",
+          "online": "Un business en ligne"
+        },
+        "placeholder": {
+          "goal": "Sélectionner un objectif",
+          "phone": "0612345678"
+        },
+        "errors": {
+          "lastName": "Veuillez saisir votre nom",
+          "name": "Veuillez saisir votre prénom",
+          "businessName": "Veuillez saisir le nom de votre busines",
+          "phone": "Votre numéro n'est pas valide",
+          "activityTypes": "Choisissez au moins une typologie d'activité",
+          "goal": "Comment pouvons-nous vous aider ? Veuillez saisir un objectif",
+          "submit": "Une erreur est survenue, veuillez réessayer ultérieurement ou contacter notre support client"
+        },
+        "continue": "Continuer vers Hey Pongo"
+      }
+    }
+  },
+  "login": {
+    "askForDemo": "demander une démo gratuite",
+    "button": {
+      "logIn": "Se connecter"
+    },
+    "carousel": {
+      "title": "Nos clients ont du talent"
+    },
+    "changePassword": {
+      "button": {
+        "submit": "Valider"
+      },
+      "description": "Choisissez un mot de passe d'au moins 8 caractères",
+      "error": "Une erreur est survenue, veuillez nous contacter",
+      "success": "Votre mot de passe a été mis à jour avec succès. Vous pourrez l'utiliser dès votre prochaine connexion",
+      "title": "Créez votre mot de passe"
+    },
+    "email": "Adresse email",
+    "error": {
+      "401": "Nous n'avons pas pu vous identifier, vos identifiants sont invalides",
+      "422": "Nous n'avons pas pu vous identifier, vérifiez votre adresse mail",
+      "email_required": "Vous devez indiquer votre adresse mail",
+      "password_required": "Vous devez indiquer votre mot de passe"
+    },
+    "forgot": {
+      "button": {
+        "cancel": "C'est bon je m'en rappelle !",
+        "save": "Recevoir mon lien de réinitialisation"
+      },
+      "error": "Il semblerait que cette adresse email soit inconnue. Veuillez réessayer",
+      "success": "Vous venez de recevoir un email contenant un lien pour renouveler votre mot de passe",
+      "title": "Mot de passe oublié",
+      "subtitle": "Pas de souci, ça arrive même aux meilleurs d'entre nous",
+      "text": {
+        "first": "Vous allez recevoir un lien de réinitialisation du mot de passe à l'adresse",
+        "second": "N'hésitez pas à vérifier dans vos spams ou essayer de",
+        "sendLink": "renvoyer un lien",
+        "title": "et hop, c'est parti 📬 "
+      }
+    },
+    "forgotPassword": "Mot de passe oublié ?",
+    "loading": "Connexion en cours, veuillez patienter...",
+    "loadingLang": "Changement de langue en cours, veuillez patienter...",
+    "loadingSignUp": "Bienvenue !",
+    "loadingSignUpSubtitle": {
+      "default": "Hey Pongo est en cours de personnalisation",
+      "google": "Prêt à devenir n°1 sur Google ?",
+      "loyalty": "À deux doigts de transformer vos visiteurs en relation à vie..."
+    },
+    "waiting": "Veuillez patienter...",
+    "orDemo": "Ou",
+    "password": "Mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "reset": {
+      "button": {
+        "save": "Mettre à jour mon mot de passe"
+      },
+      "confirmNewPassword": "Confirmation du nouveau mot de passe",
+      "error": {
+        "confirm_password_different": "Le mot de passe et sa confirmation sont différents",
+        "confirm_password_required": "Vous devez confirmer votre mot de passe",
+        "expiration": "Votre code est expiré, veuillez renouveler votre récupération de mot de passe",
+        "password_length": "Le mot de passe doit faire au moins 8 caractères"
+      },
+      "newPassword": "Nouveau mot de passe",
+      "success": "Votre mot de passe a été modifié, veuillez vous connecter",
+      "title": "Réinitialisez votre mot de passe"
+    },
+    "title": "Se connecter",
+    "account": {
+      "signup": "Créer un compte",
+      "noAccount": "Vous n'avez pas de compte ?",
+      "welcome": "Bienvenue 👋",
+      "form": {
+        "login": "Se connecter"
+      }
+    }
+  },
+  "notifications": {
+    "save": {
+      "error": "Une erreur est survenue lors de l'enregistrement",
+      "success": "Les données ont été enregistrées avec succès"
+    },
+    "forbidden": "Vous n'avez pas les permissions pour effectuer cette modification, veuillez contacter votre administrateur",
+    "submit": "Une erreur est survenue, veuillez réessayer ultérieurement ou contacter notre support client"
+  },
+  "pages": {
+    "analytics": {
+      "analyticsPage": {
+        "charts": {
+          "legend": {
+            "customersPercentage": "Pourcentage de clients"
+          }
+        },
+        "description": "Suivez en temps réel le profil de vos clients",
+        "involvement": {
+          "byTypes": "Répartition par types",
+          "optin": "Taux d'acceptation des SMS",
+          "title": "Engagement"
+        },
+        "moreInformation": {
+          "description": "Vous pouvez configurer plus de questions dans votre parcours CRM afin de collecter des données sur vos clients",
+          "link": "Obtenir + d'informations sur vos clients"
+        },
+        "optinSources": {
+          "added_manually_from_dashboard": "Ajouts manuels",
+          "all": "Toutes les sources",
+          "contest-game": "Jeux concours",
+          "import": "Imports",
+          "missed-calls": "Appels manqués",
+          "online": "En ligne",
+          "order-terminal": "Bornes de commande",
+          "payment-terminal": "Terminaux de paiement",
+          "tablet": "Tablettes de fidélité",
+          "web": "Web",
+          "webapp": "Interface de fidélité web"
+        },
+        "persona": {
+          "averageAge": "Âge moyen",
+          "description": {
+            "allStores": "Il représente le profil type de vos clients toutes boutiques confondues",
+            "oneStore": "Il représente le profil type de vos clients dans votre boutique {store}"
+          },
+          "title": "Votre client type",
+          "touchpoint": "Canal",
+          "touchpoints": "Canaux",
+          "favoriteProduct": "Produit préféré",
+          "averageTicketAmount": "Panier moyen"
+        },
+        "profile": {
+          "ages": "Âges",
+          "title": "Données de profil"
+        },
+        "title": "Statistiques"
+      },
+      "emptyState": {
+        "button": "Ajouter un client",
+        "description": "Constituez votre propre base de données et découvrez le profil type de vos clients.",
+        "title": "Bientôt vos premiers clients !"
+      }
+    },
+    "autopilot": {
+      "autopilotDetailPage": {
+        "message": {
+          "bonusPoints": {
+            "description": {
+              "nextVisit": "Ces points seront ajoutés lors de la prochaine visite du client.",
+              "withReviewLink": "Ces points seront ajoutés aux clients ayant laissé un avis sur votre page Google."
+            },
+            "title": "Paramétrer le nombre de points"
+          },
+          "conversionDaysCount": {
+            "description": "Si votre client revient dans cet intervalle de temps après avoir reçu votre message, il sera considéré comme converti",
+            "title": "Délai de conversion (en jours)"
+          },
+          "description": "Configurez le message que vous souhaitez envoyer à vos clients",
+          "preview": {
+            "title": "Aperçu"
+          },
+          "reviewLink": {
+            "description": "Ajouter un lien vers votre formulaire d'avis Google à la fin de votre message",
+            "title": "Lien d'avis ?"
+          },
+          "sms": "Texte du SMS",
+          "stores": {
+            "description": "Choisissez les boutiques que vous souhaitez activer",
+            "selectAll": "Tout sélectionner",
+            "title": "Boutiques"
+          },
+          "title": "Message"
+        },
+        "results": {
+          "conversionRate": "Taux de conversion",
+          "converted": "Clics",
+          "sent": "Envoyés"
+        },
+        "summary": {
+          "message": "Message",
+          "recipients": "Destinataires",
+          "trigger": "Déclencheur"
+        },
+        "tabs": {
+          "message": "Message",
+          "results": "Résultats"
+        }
+      },
+      "autopilotsDetailPage": {
+        "blocks": {
+          "global": {
+            "customersOfAllStores": "Clients de toutes les boutiques",
+            "customersOfSomeStores": "Clients d'une boutique | Clients de {count} boutiques"
+          }
+        },
+        "modal": {
+          "saveComplete": {
+            "linkText": "Retourner aux messages automatisés",
+            "text": "Les modifications de votre message automatisé ont bien été prises en compte !",
+            "title": "Félicitations"
+          }
+        },
+        "errors": {
+          "reduceMessageLength": "La longueur du SMS a été réduite de {linkLength} caractères en raison de l'ajout du lien d'avis"
+        }
+      },
+      "autopilotsPage": {
+        "description": "Envoyer des messages personnalisés à vos clients",
+        "items": {
+          "allStores": "Toutes les boutiques",
+          "boostReviews": "Booster ses avis sur Google",
+          "inactive": "Désactivé",
+          "increaseFrequency": "Augmenter sa fréquence de visites",
+          "store": "Une boutique | {count} boutiques"
+        },
+        "table": {
+          "columns": {
+            "conversionRate": "% conversion",
+            "countConversions": "Conversions",
+            "countMessages": "Messages"
+          }
+        },
+        "boost": {
+          "none": "Boost de base client",
+          "instagram": "Boost de followers Instagram",
+          "facebook": "Boost d'abonnés Facebook",
+          "custom": "Boost personnalisé",
+          "google": "Boost d'avis Google"
+        },
+        "goal": "Objectif",
+        "participants": "Participants",
+        "title": "Messages automatisés"
+      }
+    },
+    "campaign": {
+      "emptyState": {
+        "button": "Créer une campagne",
+        "description": "Une soirée spéciale ou un jour un peu creux ? Communiquez avec tous vos clients en créant vos propres campagnes SMS",
+        "startFromZero": "Ou commencer à partir de zéro :"
+      },
+      "modal": {
+        "title": "Campagne SMS",
+        "buttonTitle": "Utiliser ce modèle",
+        "template": "Ou utiliser un modèle",
+        "detail": {
+          "title": "Ce template contient:",
+          "smsMessage": "💬 Texte de la campagne :",
+          "launchDate": "🗓️ Date d'envoi :"
+        }
+      },
+      "templates": {
+        "tips": "Créer une campagne SMS en 2 clics en utilisant un de nos modèles :",
+        "seeAllTemplates": "Voir tous les modèles",
+        "cards": {
+          "button": "Utiliser"
+        }
+      },
+      "campaignCreatePage": {
+        "articles": {
+          "header": {
+            "description": "Découvrez nos articles sur le sujet",
+            "title": "En manque d'inspiration ? 📚"
+          },
+          "smsExamples": {
+            "description": "Pour vous accompagner au mieux, on vous a listé par mois des exemples de campagnes ...",
+            "title": "56 exemples de campagnes SMS"
+          },
+          "targetingAdvices": {
+            "description": "La recette d’une campagne SMS réussie consiste à segmenter sa base. Acheminer le bon SMS ...",
+            "title": "Comment bien cibler ses campagnes SMS ?"
+          },
+          "tenRules": {
+            "description": "Les 10 commandements d’une campagne SMS réussie, pour que vos messages ...",
+            "title": "Les 10 commandements d’une campagne SMS"
+          }
+        },
+        "block": {
+          "billing": {
+            "campaignCost": "Coût de la campagne",
+            "campaignMessages": "SMS à envoyer",
+            "dropdown": "Sélectionner un mandat",
+            "loading": "Calcul de la tarification en cours en fonction des destinataires",
+            "mandate": "Mandat",
+            "mandateToBill": "Mandat à prélever",
+            "smsCost": {
+              "averageTitle": "Coût moyen par SMS",
+              "title": "Coût par SMS",
+              "value": "{ smsPrice } € HT"
+            },
+            "testMessages": "SMS de test",
+            "title": "Tarification",
+            "tooltip": {
+              "description": "Le tarif des SMS change selon le pays du destinataire. Nous calculons ainsi le prix de votre campagne en fonction des clients ciblés. Les tarifs hors taxe suivants par SMS sont appliqués :",
+              "title": "Comment est calculé le prix de la campagne ?"
+            },
+            "youMustSelectMandate": "Vous devez sélectionner un mandat de prélèvement pour pouvoir finaliser la création de votre campagne",
+            "mandateRadios": {
+              "each": {
+                "title": "Prélever chaque boutique",
+                "description": "Chaque boutique sera prélevée d’un montant proportionnel au nombre de SMS envoyés à ses clients."
+              },
+              "specific": {
+                "title": "Sélectionner un mandat spécifique",
+                "description": "Choisissez un mandat spécifique sur lequel le montant total de la campagne sera prélevé."
+              }
+            }
+          },
+          "chooseDate": {
+            "invalidDate": "La date et l'heure de votre campagne doivent être supérieures à la date du jour",
+            "title": "Sélectionner une date"
+          },
+          "launchNow": "Ou lancer immédiatement",
+          "optinsTargets": "destinataire recevra la campagne | destinataires recevront la campagne",
+          "preview": {
+            "description": " N'hésitez pas à tester votre campagne en indiquant votre numéro",
+            "title": "Aperçu"
+          },
+          "launch": {
+            "title": "Lancer ma campagne",
+            "date": "Date",
+            "hour": "Heure"
+          },
+          "recipients": "Destinataires",
+          "recipientsDetail": "Ce sont ces clients uniquement qui recevront le SMS",
+          "sender": {
+            "merchantSender": {
+              "description": "L'expéditeur du SMS sera celui défini au niveau de la marque",
+              "title": "Nom de la marque ({merchantName})"
+            },
+            "storeSender": {
+              "description": "L'expéditeur du SMS sera celui correspondant à la boutique / marque de référence de chaque client",
+              "title": "Nom de la boutique ({storeName})"
+            },
+            "title": "Expéditeur"
+          },
+          "target": "Cible",
+          "testCampaign": "Tester ma campagne",
+          "testCampaignDetail": "Recevez un SMS de test sur votre mobile, celui-ci vous sera facturé {smsPrice} € HT",
+          "validationInformation": {
+            "text": "En validant la campagne, vous acceptez d'être facturé du montant exact de la campagne, c'est à dire {globalCost} € HT",
+            "title": "Remarque"
+          },
+          "warningInformation": {
+            "text": "En France, la législation interdit l'envoi de SMS commerciaux le dimanche et les jours fériés. Ils sont autorisés du lundi au vendredi entre 8H et 20H, le samedi entre 10H et 20H.",
+            "title": "Attention"
+          },
+          "qrCodeBlock": {
+            "title": "QR Code unique",
+            "description": "Mesurez avec précision l’impact de votre campagne SMS et évitez la fraude",
+            "placeholder": "Montre ce QR code en magasin :",
+            "subBlock": {
+              "title": "Comment ça marche ?",
+              "description": "Demandez à vos clients de cliquer sur le lien présent dans ce SMS et de montrer le QR code lors de leur visite en magasin"
+            },
+            "switchActivated": "Activé",
+            "switchDesactivated": "Désactivé"
+          }
+        },
+        "buttons": {
+          "continue": "Suivant",
+          "launch": "Lancer la campagne",
+          "schedule": "Programmer la campagne",
+          "test": "Tester la campagne"
+        },
+        "radios": {
+          "now": "Lancer la campagne",
+          "later": "Planifier la campagne"
+        },
+        "cards": {
+          "ages": "Âges",
+          "channelTags": "Canaux de vente",
+          "consumedProducts": "Produits consommés",
+          "contestGames": "Jeux concours",
+          "date": {
+            "firstCheckin": "Date d'inscription",
+            "lastVisit": "Dernière visite"
+          },
+          "genders": "Genres",
+          "marketingTags": "Modules marketing",
+          "points": "Points",
+          "stores": "Sélectionner les boutiques",
+          "surveys": "Sondages",
+          "types": "Types"
+        },
+        "confirm": {
+          "modal": {
+            "text": "Votre campagne va être envoyée le {launchDate}",
+            "title": "Êtes-vous sûr(e) ?",
+            "confirm": "Valider",
+            "cancel": "Annuler"
+          },
+          "blockedModal": {
+            "title": "🖐 Minute Papillon !",
+            "text": "Contactez l'un de nos experts pour ajouter un moyen de paiement et profiter pleinement de cette fonctionnalité.",
+            "button": "Prendre rendez-vous"
+          },
+          "successNotification": "Votre campagne a été créée avec succès !"
+        },
+        "description": "Choisissez votre cible",
+        "form": {
+          "shortener": {
+            "add": "Ajouter un lien",
+            "placeholder": "URL de la page"
+          },
+          "smsMessage": "Texte de votre SMS ({maxlength} caractères maximum)"
+        },
+        "notifications": {
+          "create": {
+            "error": "Une erreur est survenue lors de la création de la campagne, veuillez réessayer",
+            "noDateSelected": "Vous devez définir une date pour le lancement de la campagne"
+          },
+          "shortener": {
+            "error": "Une erreur est survenue lors du raccourcissement de votre lien",
+            "success": "Votre lien a été raccourci !"
+          },
+          "copy": {
+            "error": "Erreur lors de la copie vers le presse-papier",
+            "success": "Le lien du concours a été copié dans le presse-papier"
+          },
+          "test": {
+            "error": "Une erreur est survenue lors du test de la campagne, veuillez réessayer",
+            "messageLengthError": "Le message est trop long, il ne peut pas dépasser 145 caractères",
+            "success": "Vous devriez recevoir très rapidement un sms au numéro {phoneNumber}"
+          },
+          "smsMessageLength": "Votre message ne peut pas excéder 145 caractères"
+        },
+        "segments": {
+          "channel": "Canal",
+          "consumption": "Consommation",
+          "engagement": "Engagement",
+          "location": "Localisation",
+          "profile": "Profil",
+          "typology": "Typologie"
+        },
+        "steps": {
+          "01": {
+            "description": "Choisissez votre cible",
+            "title": "Ciblage de la campagne"
+          },
+          "02": {
+            "description": "Choisissez votre message",
+            "title": "Texte du SMS"
+          },
+          "03": {
+            "description": "Confirmez la campagne",
+            "title": "Validation"
+          }
+        },
+        "summary": {
+          "button": "Continuer",
+          "calculationProgress": "calcul en cours",
+          "message": "Message",
+          "recipients": "Personne touchée | Personnes touchées",
+          "recipientsLoading": "Personnes touchées",
+          "title": "Votre campagne SMS"
+        },
+        "templates": {
+          "header": {
+            "description": "Découvrez nos modèles d'inspiration pour vos campagnes SMS",
+            "title": "Quel est votre objectif ? 💡"
+          },
+          "messages": {
+            "show": "Ça arrive ...",
+            "used": "Utilisé",
+            "useModel": "Utiliser le modèle"
+          }
+        },
+        "title": "Créer une nouvelle campagne SMS",
+        "titleWithTemplate": "Personnalisez une nouvelle campagne SMS",
+        "upsell": {
+          "title": "✨ Réduisez le coût de vos campagnes grâce au pack SMS",
+          "button": "Découvrir"
+        }
+      },
+      "campaignDetailPage": {
+        "blocks": {
+          "conversionsJ7": "Conversions à J+7",
+          "customerConverted": {
+            "noCustomer": {
+              "description": "Les clients convertis par votre campagne SMS s'afficheront ici",
+              "title": "Bientôt vos premiers clients convertis !"
+            },
+            "title": "Clients convertis"
+          },
+          "details": {
+            "cost": "Coût",
+            "recipients": "Destinataires",
+            "sentDate": "Date d'envoi",
+            "status": "Statut",
+            "title": "Détails"
+          },
+          "message": {
+            "info": "L'expéditeur SMS affiché est celui défini pour chaque boutique",
+            "title": "Message"
+          },
+          "metrics": "Chiffres clés",
+          "yourCampaign": "Votre campagne"
+        },
+        "buttons": {
+          "deleteCampaign": "Supprimer la campagne"
+        },
+        "cards": {
+          "conversions": "Convertis",
+          "messageSent": "Message envoyé",
+          "revenus": "CA généré",
+          "sentDate": "Date d'envoi",
+          "shortLinksClicks": "Clics",
+          "smsProgrammed": "SMS programmés",
+          "smsSent": "SMS envoyés",
+          "target": "Cible"
+        },
+        "delete": {
+          "description": "La campagne sera supprimée définitivement.",
+          "text": "Êtes-vous sûr(e) de vouloir supprimer cette campagne ?"
+        },
+        "description": "Reporting",
+        "notifications": {
+          "deleteCampaign": {
+            "error": {
+              "403": "Impossible de supprimer cette campagne",
+              "500": "Une erreur inconnue est survenue lors de la suppression de la campagne"
+            },
+            "success": "La campagne a été supprimée avec succès"
+          }
+        },
+        "tables": {
+          "thead": {
+            "convertedDatetime": "Converti le",
+            "customer": "Client",
+            "store": "Boutique"
+          }
+        },
+        "title": "Campagne du {date}"
+      },
+      "campaignPage": {
+        "cta": {
+          "create": "Créer une campagne"
+        },
+        "description": "Engagez votre base client et faites gonfler votre chiffre d’affaires avec des campagnes sms ciblées et impactantes",
+        "items": {
+          "stats": {
+            "conversions": "Conversions",
+            "turnover": "CA généré"
+          },
+          "status": {
+            "scheduled": "Programmée",
+            "sent": "Envoyée"
+          },
+          "title": "Campagne du {date}"
+        },
+        "title": "Mes campagnes"
+      },
+      "campaignTargetBlock": {
+        "ages": "Âges",
+        "agesFromTo": "de {age1} à {age2} ans",
+        "allCheckins": "Toutes les inscriptions",
+        "allContestGames": "Tous les jeux concours",
+        "allFrequencyTypes": "Tous les types de clients",
+        "allGenders": "Tous les genres",
+        "allStores": "Toutes les boutiques",
+        "allSurveys": "Tous les sondages",
+        "allTags": "Tous les tags",
+        "allTypes": "Tous les types",
+        "allVisits": "Toutes les visites",
+        "categories": {
+          "commitment": "Engagement",
+          "contestGames": "Jeux concours",
+          "dates": "Dates",
+          "location": "Localisation",
+          "profile": "Profil",
+          "tags": "Tags",
+          "types": "Types"
+        },
+        "chooseStore": "Veuillez sélectionner une boutique",
+        "consumedProducts": "Produits consommés",
+        "consumption": "Consommation",
+        "convertedDescriptionGoogle": {
+          "description": "Un client est considéré comme converti lorsqu’il clique sur le lien présent dans le SMS",
+          "title": "Définition des conversions"
+        },
+        "convertedDescriptionSMS": {
+          "description": "Un client est considéré comme converti lorsqu’il renseigne son numéro de téléphone dans la tablette dans les 7 jours suivant votre campagne, ou lorsqu’il effectue une commande en ligne dans cette période (si votre outil de commande en ligne est connecté à Pongo).",
+          "title": "Définition des conversions"
+        },
+        "convertedDescriptionQRCode": {
+          "description": "Une personne est considérée comme convertie lorsque le QR Code unique de son message est scanné en magasin"
+        },
+        "details": {
+          "less": "-",
+          "more": "+",
+          "title": "de détails"
+        },
+        "firstCheckinFromTo": "Inscription du {firstCheckin1} au {firstCheckin2}",
+        "frequencyDescription": {
+          "title": "Définitions des types"
+        },
+        "frequencyTypes": "Types de clients",
+        "genders": "Genres",
+        "lastVisitFromTo": "Dernière visite du {lastVisit1} au {lastVisit2}",
+        "noSelectedStores": "Aucune boutique selectionnée",
+        "points": "Points",
+        "pointsDescription": {
+          "description": "Les paliers de votre jauge de points sont définis en fonction des récompenses renseignées dans votre programme de fidélité.",
+          "title": "Définition des points"
+        },
+        "pointsFromTo": "de {points1} à {points2} points",
+        "stores": "Boutiques",
+        "surveys": "Sondages",
+        "tags": "Tags",
+        "turnoverDescription": {
+          "description": "Chiffre d'affaire généré = Nombre de convertis x Panier moyen. Le panier moyen est estimé par défaut à 10€.",
+          "tips": "Envie de changer le chiffre de votre panier moyen ? Rendez-vous dans \"Ma boutique\" > Panier moyen. | Envie de changer le chiffre de votre panier moyen ? Rendez-vous dans \"Mes boutiques\" > Sélectionner une boutique > Panier moyen.",
+          "title": "Définition du CA généré"
+        }
+      }
+    },
+    "contests": {
+      "emptyState": {
+        "button": "Créer un jeu concours",
+        "description": "Followers, avis Google ou Trustpilot, les jeux concours vous permettent d’atteindre vos objectifs grâce à des mécaniques ludiques.",
+        "startFromZero": "Ou commencer à partir de zéro :"
+      },
+      "modal": {
+        "title": "Jeu concours",
+        "buttonTitle": "Utiliser ce modèle",
+        "template": "Ou utiliser un modèle",
+        "detail": {
+          "title": "Ce template contient:",
+          "goal": "🎯 Objectif:",
+          "daysBetweenParticipations": {
+            "title": "⏰ Fréquence de participation:",
+            "once": "Participation unique",
+            "everyday": "{day} jour entre chaque participation | {day} jours entre chaque participation"
+          },
+          "rewardType": {
+            "title": "🎁 Type de récompenses:",
+            "types": {
+              "points": "{count} gain de points",
+              "free_product": "{count} cadeau | {count} cadeaux",
+              "canLose": "1 perdu"
+            }
+          }
+        }
+      },
+      "templates": {
+        "tips": "Créer un jeu concours en 2 clics en utilisant un de nos modèles :",
+        "seeAllTemplates": "Voir tous les modèles",
+        "cards": {
+          "button": "Utiliser"
+        }
+      },
+      "contestDetailPage": {
+        "blocks": {
+          "clickCount": "Nombre de clics",
+          "customerConverted": {
+            "noCustomer": {
+              "description": "Il n'y a pour l'instant aucune participation à ce jeu concours. La liste des participants s'affichera ici.",
+              "title": "Aucune participation pour le moment"
+            },
+            "title": "Liste des participants"
+          },
+          "details": {
+            "detail": "Détail",
+            "title": "Informations générales"
+          },
+          "links": {
+            "fields": {
+              "chooseStore": {
+                "info": "Toutes les boutiques",
+                "label": "Choisissez une boutique"
+              }
+            },
+            "link": "Lien",
+            "qrcode": "QR Code",
+            "title": "QR Codes / Liens"
+          },
+          "yourContest": "Votre jeu concours"
+        },
+        "buttons": {
+          "delete": "Supprimer",
+          "duplicate": "Dupliquer",
+          "edit": "Modifier",
+          "title": "Actions"
+        },
+        "cards": {
+          "clicks": "Scans / Clics",
+          "participation": "Participations",
+          "rewardsRetrieved": "Cadeaux utilisés en boutique",
+          "rewardsWon": "Cadeaux gagnés"
+        },
+        "contestTips": {
+          "contestCreated": "Votre jeu concours a bien été créé ! | Vos jeux concours ont bien été créés !",
+          "link": "Lien vers votre jeu concours | Lien vers vos jeux concours",
+          "qrCodeCreated": "Nous avons généré un QR code | Nous avons généré un QR code par boutique",
+          "tips": {
+            "list": {
+              "engage": "Je réengage mes participants",
+              "followPerformance": "J’analyse les performances",
+              "promote": "J’en fais la promotion",
+              "shareLink": "Je partage mon lien",
+              "shareQRCode": "Je partage mon QR code"
+            },
+            "subtitle": "Que faire une fois que mon jeu concours est prêt ?",
+            "title": "💡 Pongo Tip"
+          },
+          "title": "Félicitations 🎉",
+          "try": "Essayez-le ! 😉 | Essayez avec celui vous intéresse 😉",
+          "tryButton": "Tester mon jeu concours 👆 | Tester mes jeux concours 👆"
+        },
+        "copy": "Copie",
+        "description": "Détail de votre jeu concours",
+        "information": {
+          "fromDate": "Date de début",
+          "participants": "Participants",
+          "slug": "URL",
+          "toDate": "Date de fin"
+        },
+        "modal": {
+          "delete": {
+            "cancel": "Conserver",
+            "confirm": "Supprimer",
+            "message": "Êtes-vous sûr(e) de vouloir supprimer ce jeu concours ? Cette suppression est permanente. Cette opération rend obsolète le QR code et le lien de partage.",
+            "title": "Supprimer ce jeu concours ?"
+          },
+          "duplicate": {
+            "cancel": "Annuler",
+            "confirm": "Dupliquer",
+            "message": "Êtes-vous sûr(e) de vouloir dupliquer ce jeu concours ? Un nouveau QR code et un nouveau lien de partage vont être générés.",
+            "title": "Dupliquer ce jeu concours ?"
+          },
+          "notifications": {
+            "delete": {
+              "success": "Le jeu concours a été supprimé avec succès"
+            }
+          },
+          "reward": "Cadeaux",
+          "rewardRetrieved": "Utilisés en boutique",
+          "rewardWon": "Gagnés",
+          "title": "Détail des cadeaux"
+        },
+        "tables": {
+          "thead": {
+            "customer": "Participant",
+            "noData": "Aucune donnée à afficher",
+            "participatedAt": "Date de participation",
+            "retrieved": "Récupéré ?",
+            "reward": "Cadeau gagné",
+            "store": "Boutique"
+          }
+        }
+      },
+      "contestsCreatePage": {
+        "upsell": {
+          "title": "✨ Activer le module jeu concours",
+          "description": "Devenez n°1 sur Google et boostez votre nombre de followers",
+          "button": "Activer",
+          "modal": {
+            "title": "Activer le module jeu concours",
+            "steps": {
+              "1": "Création illimitée de jeux concours personnalisables",
+              "2": "Données de performances en temps réel",
+              "3": "Accès à une librairie de modèles en fonction de vos objectifs",
+              "title": "Profitez d’un accès illimité ✨"
+            },
+            "success": {
+              "title": "Félicitations !",
+              "text": "Votre module sera actif d’ici 24h",
+              "linkText": "C’est noté 👌"
+            }
+          }
+        },
+        "buttons": {
+          "backToStyleTab": "Retourner sur l'onglet de personnalisation",
+          "createContestGame": "Créer le jeu concours",
+          "goToAdvancedMode": "Passer au mode avancé",
+          "goToSimpleMode": "Passer en vue simplifiée",
+          "update": "Valider les modifications"
+        },
+        "description": {
+          "step1": "Modifiez l'apparence de votre jeu concours",
+          "step2": "Personnalisez vos récompenses",
+          "step3": "Vérifiez les modalités de lancement"
+        },
+        "global": {
+          "description": "Définissez les grandes mécaniques de votre futur concours",
+          "form": {
+            "buttons": {
+              "advancedMode": "Passez au mode avancé pour configurer l'URL ou ajouter le PDF des conditions du concours"
+            },
+            "fields": {
+              "boost": {
+                "custom": {
+                  "description": "L'utilisateur devra consulter un lien avant de pouvoir jouer",
+                  "title": "Objectif personnalisé"
+                },
+                "facebook": {
+                  "description": "L'utilisateur doit liker votre page Facebook pour pouvoir jouer",
+                  "title": "Likes Facebook"
+                },
+                "google": {
+                  "description": "L'utilisateur doit laisser un avis Google pour pouvoir jouer",
+                  "title": "Avis Google"
+                },
+                "info": "Choisissez l’objectif de votre jeu concours ",
+                "instagram": {
+                  "description": "L'utilisateur doit suivre votre page Instagram pour pouvoir jouer",
+                  "title": "Followers Instagram"
+                },
+                "label": "Objectif",
+                "none": {
+                  "description": "L'utilisateur peut jouer en remplissant simplement le formulaire",
+                  "title": "Clients en base"
+                }
+              },
+              "conditions": {
+                "info": "Vous pouvez indiquer un lien vers les conditions générales du jeu concours, qui sera accessible à tous les participants",
+                "label": "Définir des conditions générales",
+                "placeholder": "https://wwww.exemple.com/mesconditions"
+              },
+              "preview": {
+                "title": "Partage du Jeu Concours",
+                "description": "Boostez la participation à votre Jeu Concours en le rendant accessible depuis votre",
+                "link": "mini-site"
+              },
+              "defaultName": "Jeu concours {name}",
+              "info": "Donnez un nom à votre jeu concours",
+              "isPlayableOnceADay": {
+                "everyday": {
+                  "description": "L'utilisateur pourra jouer une fois par jour à votre jeu concours",
+                  "title": "Jouable une fois par jour"
+                },
+                "info": "Sélectionnez le mode de participation de votre jeu concours",
+                "label": "Fréquence de participation",
+                "help": "Définissez la fréquence à laquelle vos utilisateurs pourront participer à votre jeu concours",
+                "once": {
+                  "description": "L'utilisateur ne pourra participer qu'une seule fois sur toute la durée du jeu concours",
+                  "title": "Jouable une seule fois"
+                },
+                "customize": {
+                  "description": "L'utilisateur pourra jouer une fois tous les x jours",
+                  "title": "Fréquence personnalisée"
+                },
+                "days": "Nombre de jours entre deux participations"
+              },
+              "name": "Nom de votre jeu concours",
+              "period": {
+                "field": "Période",
+                "help": "Si vous ne précisez pas de période, votre concours sera disponible immédiatement et vous pourrez l'interrompre à tout moment."
+              },
+              "stores": "Boutiques",
+              "url": "URL"
+            },
+            "infos": {
+              "boostDefineUrls": "Pour utiliser ce boost, vous devez définir les URLs de vos pages.",
+              "defineMyPages": "Définir mes pages",
+              "storesNotAvailable": "Certaines boutiques ont été désactivées car ils sont incompatibles avec le type de boost choisi. Changez de type de boost ou définissez les URLs de vos pages."
+            }
+          },
+          "title": "Commencez à créer votre jeu concours"
+        },
+        "infos": {
+          "coverImageError": "Attention, le format de l'image de couverture n'est pas correct.",
+          "logoError": "Attention, le format du logo n'est pas correct."
+        },
+        "message": {
+          "firstDescription": "Via quel canal souhaitez-vous communiquer",
+          "form": {
+            "fields": {
+              "communicationChannel": {
+                "email": {
+                  "description": "Vos récompenses seront envoyées par e-mail en cas de gain",
+                  "title": "Par e-mail"
+                },
+                "sms": {
+                  "description": "Vos récompenses seront envoyées par SMS en cas de gain",
+                  "title": "Par SMS"
+                }
+              },
+              "confirmationText": {
+                "info": "Texte affiché lorsque l'utilisateur a remporté un cadeau, lui indiquant qu'il va recevoir une confirmation par message",
+                "label": "Texte de confirmation d'envoi du message"
+              },
+              "emailObject": "Objet de l'email",
+              "emailObjectError": "Vous ne pouvez pas ajouter de variables dans l’objet du mail",
+              "gift": "Cadeau",
+              "lose": "Perdu",
+              "notificationTextOverride": {
+                "mail": "Corps du mail envoyé à l'obtention de cette récompense",
+                "sms": "Texte du SMS envoyé à l'obtention de cette récompense"
+              },
+              "points": "Points",
+              "priceName": "Nom de la récompense",
+              "qrcodeLink": "Lien du QRCode de validation",
+              "textMessageQrcode": "Texte du {type} pour les récompenses “Points”"
+            },
+            "variableDescription": {
+              "afterVariable": "votre client recevra",
+              "end": "Bravo vous avez gagné un cadeau",
+              "intro": "Par exemple, si vous définissez le texte",
+              "start": "Bravo vous avez gagné"
+            },
+            "variableInfo": "Vous pouvez insérer ces variables dans votre message, elles seront automatiquement remplacées.",
+            "variableTitle": "Variables"
+          },
+          "title": "Canal de communication"
+        },
+        "notifications": {
+          "create": {
+            "error": "Une erreur est survenue lors de la création du concours",
+            "success": "Le jeu concours a été créé avec succès"
+          },
+          "error": {
+            "actionButton": "Le texte du bouton d'action est obligatoire",
+            "actionButtonText": "Le texte du bouton d'action est obligatoire",
+            "actionButtonTextWindow": "Le texte du bouton de la fenêtre d'action est obligatoire",
+            "askActionButtonText": "Le texte du bouton de la fenêtre d'action",
+            "askActionText": "Le texte de la fenêtre d'action est obligatoire",
+            "askActionTitle": "Le titre de la fenêtre d'action est obligatoire",
+            "callToActionText": "Le texte du bouton d'action est obligatoire",
+            "communicationChannel": "Vous devez indiquer un canal de communication pour l'envoi des messages",
+            "coverImage": "L'image de couverture est obligatoire",
+            "logo": "Le logo est obligatoire",
+            "customizeDays": "Nombre de jours dois être égales ou superieurs à 2",
+            "customLink": "Vous devez renseigner le lien personnalisé que les utilisateurs doivent consulter pour jouer",
+            "formSubmitButtonText": "Le titre du bouton de formulaire est obligatoire",
+            "formSubtitle": "Le sous-titre du formulaire est obligatoire",
+            "formTitle": "Le titre du formulaire est obligatoire",
+            "losingProbability": "Vous devez préciser la probabilité de perdre à ce jeu concours",
+            "losingText": "Le texte en cas de défaite est obligatoire",
+            "losingTileText": "Le texte en cas de défaite est obligatoire",
+            "maximumRewardsCount": "Vous devez configurer entre {from} et {to} cadeaux",
+            "messageTemplate": "Vous devez rédiger le message à envoyer après participation au jeu concours",
+            "messageTemplateLength": "Le message à envoyer après participation est trop long, {nb} caractères maximum",
+            "messageTemplateMailObject": "Vous devez indiquer l'objet du mail à envoyer après participation",
+            "name": "Le nom du concours est obligatoire",
+            "optinText": "Le texte d'optin est obligatoire",
+            "period": "Vous devez spécifier une période",
+            "priceName": "Tous les cadeaux doivent avoir un nom",
+            "priceProbability": "Tous les cadeaux doivent avoir une probabilité",
+            "probabilityNot100": "La somme des probabilités des cadeaux doit être égale à 100%",
+            "rewardNameLength": "Le nom des cadeaux ne peut pas dépasser {nb} caractères",
+            "rewardPointsNumber": "Nombre de points incorrect sur un des cadeaux",
+            "sendingNotificationText": "Le message de confirmation d'envoi de message est obligatoire",
+            "stores": "Vous devez sélectionner au moins une boutique",
+            "subtitle": "Le sous-titre du concours est obligatoire",
+            "title": "Le titre du concours est obligatoire",
+            "waitingValidationText": "Le texte d'attente de validation",
+            "winningText": "Le texte de victoire est obligatoire"
+          }
+        },
+        "preview": {
+          "almost": {
+            "info": "Vous devez ajouter au moins 2 cadeaux à votre jeu concours pour le prévisualiser",
+            "title": "Vous y êtes presque !"
+          },
+          "askActionButtonText": "Laisser un avis",
+          "askActionButtonTextCustom": "Accéder au site",
+          "askActionButtonTextFollow": "Nous suivre",
+          "askActionButtonTextLike": "Laisser un like",
+          "askActionText": "Vous allez être redirigé vers notre site, revenez sur cet onglet et profitez de nos cadeaux ! 🎁",
+          "askActionTitle": {
+            "custom": "Soutenez-nous en visitant notre site !",
+            "facebook": "Soutenez-nous en likant notre page !",
+            "google": "Laissez-nous un avis et gagnez le gros lot",
+            "instagram": "Soutenez-nous en suivant notre page !"
+          },
+          "buttons": {
+            "addPrices": "Ajouter des cadeaux"
+          },
+          "callToActionText": "JOUER",
+          "computer": "Ordinateur",
+          "disclosure": {
+            "branding": "Image de marque",
+            "colors": "Couleurs",
+            "texts": "Textes"
+          },
+          "fields": {
+            "email": "Email",
+            "firstname": "Prénom",
+            "phoneNumber": "Numéro de téléphone"
+          },
+          "formSubmitButtonText": "Lancer la roue",
+          "formSubtitle": "Dis-nous qui tu es pour qu’on te régale",
+          "formTitle": "Fais tourner la roue",
+          "losingText": "Oups c’est perdu ! Une prochaine fois peut-être",
+          "losingTileText": "Perdu !",
+          "messageTemplate": {
+            "content": {
+              "mail": "Bravo, tu as gagné { rewardTag } ! Montre cet email en boutique pour récupérer ton cadeau",
+              "points": "Bravo, tu as gagné { rewardTag }. Retrouve-nous en boutique pour débloquer nos récompenses",
+              "sms": "Bravo, tu as gagné { rewardTag } ! Montre ce SMS en boutique pour récupérer ton cadeau"
+            },
+            "losingContentText": "Oups c’est perdu ! Une prochaine fois peut-être",
+            "losingNotificationText": "Retentez votre chance bientôt",
+            "sendingNotificationText": {
+              "mail": "Vous allez recevoir un email",
+              "sms": "Vous allez recevoir un SMS"
+            },
+            "subject": "Félicitations, tu peux désormais récupérer ta récompense ! 🎁",
+            "waitingValidationText": "En attente de validation..."
+          },
+          "messageTemplateQrcode": {
+            "content": {
+              "mail": "Bravo, tu as gagné { rewardTag } ! Pour le récupérer, montre ce QRCode lors de ta prochaine visite :",
+              "sms": "Bravo, tu as gagné { rewardTag } ! Pour le récupérer, montre ce QRCode lors de ta prochaine visite : { qrcodeLink }",
+              "voucher": "Bravo, tu as gagné { rewardTag } ! Utilise ce code promo sur notre site pour en profiter lors de ta prochaine commande : { voucherTag }"
+            }
+          },
+          "mobile": "Mobile",
+          "optinText": "Je veux recevoir des cadeaux de la part de { merchantName }",
+          "primaryColor": "Couleur principale",
+          "primaryColorDescription": "Cette couleur vous servira de base pour modifier l'aspect de votre jeu concours",
+          "subtitle": "Gagne des cadeaux en faisant tourner la roue 🎁",
+          "terms": {
+            "afterLink": "de ce concours",
+            "beforeLink": "En participant, vous acceptez les",
+            "link": "conditions générales d'utilisation"
+          },
+          "title": "Plein de surprises se cachent ici 🤩",
+          "winningText": "Bravo, vous avez gagné !"
+        },
+        "prices": {
+          "buttons": {
+            "advancedMode": "Passez au mode avancé pour configurer les couleurs et les textes de vos cadeaux sur la roue"
+          },
+          "description": "Définissez les différentes récompenses que peuvent remporter vos clients",
+          "form": {
+            "loose": {
+              "backgroundColor": "Couleur de fond",
+              "defeatText": "Oups c’est perdu ! Une prochaine fois peut-être",
+              "losingProbability": "Chances de perdre",
+              "losingTileText": "Texte sur la roue",
+              "textColor": "Couleur du texte"
+            },
+            "price": {
+              "100percentage": "Répartition valide",
+              "addPoints": {
+                "info": "Ce cadeau octroie des points au participant",
+                "label": "Points"
+              },
+              "backgroundColor": "Couleur de fond",
+              "buttons": {
+                "addAPrice": "Ajouter une récompense",
+                "distributeAutomatically": "Répartir automatiquement",
+                "personalize": "Personnaliser"
+              },
+              "card": {
+                "gift": "Cadeau",
+                "loose": "Perdu",
+                "personalized": "personnalisé",
+                "points": "Points"
+              },
+              "hasQrCode": "Récupérer la récompense avec un QR code",
+              "hasQrcode": {
+                "info": "Ce cadeau pourra être récupéré via un QRCode inséré dans le message",
+                "label": "Génération d'un QRCode"
+              },
+              "hasGiftGivePoint": "Ce cadeau génère aussi des points ?",
+              "labelPoint": "Nombre de points",
+              "maximumReward": "Le nombre maximum de récompenses est atteint",
+              "moreThan100": "Vous ne pouvez pas dépasser 100%, il y a {sumPercentage}% en trop",
+              "name": "Nom de la récompense",
+              "not100Error": "Il reste {sumPercentage}% à répartir",
+              "oddsOfWinning": "Chances de gagner",
+              "textColor": "Couleur du texte",
+              "textInCaseOfLosing": "Texte du {type} en cas de perte",
+              "textInCaseOfWinning": "Texte du {type} en cas de gain"
+            }
+          },
+          "modal": {
+            "title": "Personnaliser ma récompense"
+          },
+          "title": "Configuration des récompenses",
+          "rewardNamePlaceholder": "Nom de votre récompense #{index}"
+        },
+        "style": {
+          "actionWindow": {
+            "description": "Définissez les textes affichés lors de la demande d'action en pré-requis au concours",
+            "form": {
+              "fields": {
+                "askActionButtonText": "Texte du bouton de la fenêtre d'action",
+                "askActionText": "Texte de la fenêtre d'action",
+                "askActionTitle": "Titre de la fenêtre d'action"
+              }
+            },
+            "title": "Fenêtre d'action"
+          },
+          "description": "Configurez les textes et les couleurs pour qu'ils soient cohérents avec votre image de marque",
+          "form": {
+            "fields": {
+              "backgroundColor": "Couleur de fond",
+              "buttonsColor": "Couleur des boutons",
+              "buttonsTextColor": "Couleur du texte des boutons",
+              "callToActionText": "Texte du bouton d'action",
+              "coverImage": "Image de couverture",
+              "formSubmitButtonText": "Texte du bouton de formulaire",
+              "formSubTitle": "Sous-titre du formulaire",
+              "formTitle": "Titre du formulaire",
+              "logo": "Logo",
+              "losingText": "Texte affiché au participant, lorsqu'il a perdu",
+              "optinText": "Texte d'optin",
+              "rewardsColors": {
+                "background": "Fond",
+                "color": "Couleur",
+                "text": "Texte"
+              },
+              "subtitle": "Sous-titre",
+              "textsColor": "Couleur des textes",
+              "title": "Titre",
+              "waitingValidationText": {
+                "info": "Texte affiché pour indiquer à l'utilisateur que son avis ou son like est en attente de validation avant de pouvoir faire tourner la roue",
+                "label": "Texte d'attente de validation"
+              },
+              "winningText": "Texte affiché au participant, lorsqu'il a gagné"
+            }
+          },
+          "title": "Personnalisation de votre jeu concours"
+        },
+        "tabs": {
+          "global": "Informations générales",
+          "prices": "Récompenses",
+          "style": "Apparence"
+        },
+        "title": "Créer un nouveau jeu concours",
+        "titleWithTemplate": "Personnalisez un nouveau jeu concours"
+      },
+      "contestsEditPage": {
+        "notifications": {
+          "create": {
+            "error": "Une erreur est survenue lors de la modification du jeu concours",
+            "success": "Le jeu concours a été modifié avec succès"
+          }
+        },
+        "title": "Modifiez votre jeu concours"
+      },
+      "contestsPage": {
+        "cta": {
+          "create": "Créer un jeu concours"
+        },
+        "description": "Enrôlez de nouveaux clients grâce aux jeux concours",
+        "title": "Mes jeux concours"
+      },
+      "preview": {
+        "modal": {
+          "button": "Laissez un avis",
+          "condition": {
+            "facebook": "Likez notre page",
+            "google": "Laissez-nous un avis",
+            "instagram": "Suivez-nous"
+          },
+          "gift": "Revenez sur cet onglet et profitez de nos cadeaux ! 🎁",
+          "redirection": "Vous allez être redirigé vers notre page"
+        },
+        "title": "Aperçu"
+      },
+      "successConfig": {
+        "title1": "Hey pssst ... Chez ",
+        "title2": "on a la formule miracle pour booster vos avis Google grâce à la fonctionnalité",
+        "gameContest": "Jeux concours",
+        "googleLabel": "Pour commencer, renseignez votre fiche Google My Business",
+        "continueButton": "Continuer"
+      },
+      "sharePage": {
+        "store": {
+          "title": "🏠 En point de vente ",
+          "description": "Présentez votre jeu concours sur des flyers ou sur vos sacs de livraison",
+          "buttonText": "Télécharger ce QR code"
+        },
+        "socialMedias": {
+          "title": "📣 Sur vos réseaux sociaux",
+          "description": "Copiez le lien ci-dessous et insérez le en bio de vos réseaux"
+        },
+        "website": {
+          "title": "👨‍💻 Sur votre site ",
+          "description": "Affichez votre jeu concours en ajoutant un script à votre site web ",
+          "buttonText": "Nous contacter"
+        },
+        "finishButton": "Terminer",
+        "pageTitle": "Partagez votre jeu concours",
+        "faqQuestions": "Des questions ? N'hésitez pas à consulter notre"
+      }
+    },
+    "coupon": {
+      "couponCreatePage": {
+        "form": {
+          "code": {
+            "description": "Les clients saisiront ce code de réduction juste avant le paiement d’une commande",
+            "placeholder": "par ex : HAPPYMEAL",
+            "title": "Code promo"
+          },
+          "created": "Code de réduction créé",
+          "errors": {
+            "creationError": "Une erreur est survenue lors de la création du code promo",
+            "errorPunctuation": "Les caractères spéciaux ne sont pas autorisés",
+            "exceedLength": "Le nom de votre code promo ne doit excéder 30 caractères",
+            "missing": "Veuillez remplir ce champ obligatoire",
+            "nameIsTaken": "Le code promo {name} existe déjà",
+            "superiorEqualOne": "Doit être un entier supérieur ou égal a 1",
+            "superiorZero": "Doit être un entier supérieur à 0"
+          },
+          "expiration": {
+            "description": "Jusqu'à quand sera valide votre promotion",
+            "label": "Appliquer une date d'expiration",
+            "optional": "Optionnel",
+            "title": "Date d'expiration"
+          },
+          "location": {
+            "description": "Le code promo s’appliquera uniquement sur les points de vente sélectionnés",
+            "title": "Point de vente"
+          },
+          "requirements": {
+            "limitedAmount": "Définir un nombre limité de code promo",
+            "limitedAmountDescription": "Combien de code de réduction souhaitez vous générer ?",
+            "minPrice": "Montant minimum d’achat",
+            "minPriceDescription": "Définir un montant minimum d’achat",
+            "title": "Condition"
+          },
+          "type": {
+            "fixed-amount": "€",
+            "free-order": "Commande gratuite",
+            "free-shipping": "Frais de livraison offert",
+            "percentage": "%",
+            "title": "Type",
+            "value": "Valeur de la réduction"
+          }
+        },
+        "summary": {
+          "labels": {
+            "availibility": "Valable sur :",
+            "code": "Code promo :",
+            "empty": "Aucune information saisie pour le moment",
+            "expire": "Expire le",
+            "generated": "code de réduction généré | codes de réduction générés",
+            "minAmount": "Achat minimum",
+            "title": "Résumé"
+          },
+          "stores": {
+            "allStores": "Toutes les boutiques",
+            "noStores": "Aucune boutique"
+          },
+          "type": {
+            "fixed-amount": "€ de réduction",
+            "percentage": "% de réduction"
+          }
+        },
+        "title": "Créer un code promo"
+      },
+      "couponPage": {
+        "description": "Créez et gérez vos codes de réduction pour votre boutique en ligne",
+        "table": {
+          "head": {
+            "code": "Code promo",
+            "expirationDate": "Date d’expiration",
+            "quantity": "Quantité",
+            "status": "Statut",
+            "store": "Point de vente"
+          },
+          "rows": {
+            "active": "Actif",
+            "discount": "de réduction",
+            "inactive": "Inactif",
+            "minValue": "Achat minimum"
+          }
+        },
+        "tip": {
+          "button": "Créer ma campagne SMS",
+          "description": "Engagez vos clients et incitez les à venir sur votre site de commande en ligne. Créez une campagne SMS en quelques clics !",
+          "subtitle": "Le code de réduction {couponName} a été crée avec succès, faites le savoir !",
+          "title": "Pongo Tips 😉"
+        },
+        "title": "Code promo"
+      },
+      "emptyState": {
+        "button": "Créer un code promo",
+        "description": "Engagez vos clients et augmentez le flux de visiteurs sur votre site de commande en ligne grâce à des codes de réduction personnalisables",
+        "title": "Créez un code promo en quelques clics !"
+      }
+    },
+    "crm": {
+      "crmPage": {
+        "blocks": {
+          "drag": {
+            "active": {
+              "empty": {
+                "description": "Faites glisser ici une question pour commencer...",
+                "title": "Parcours de question vide"
+              }
+            },
+            "inactive": {
+              "empty": "Faites glisser les questions ici pour les désactiver",
+              "title": "Questions"
+            },
+            "questions": {
+              "birthday": "Anniversaire",
+              "email": "E-mail",
+              "firstName": "Prénom",
+              "gender": "Genre",
+              "optin": {
+                "title": "Demande de consentement",
+                "tooltip": {
+                  "description": "Afin d'être conformes au Règlement Général sur la Protection des Données (RGPD), la première question posée à vos clients est toujours celle leur demandant s'ils acceptent vos communications marketing par SMS",
+                  "title": "Acceptation de vos SMS marketing"
+                }
+              }
+            },
+            "visits": "{nb}ère visite | {nb}ème visite"
+          },
+          "interval": {
+            "description": "Il s'agit du nombre de visites entre chaque question posée.",
+            "title": "Intervalle de visites"
+          }
+        },
+        "description": "Sachez-en plus sur vos clients !",
+        "modal": {
+          "saveComplete": {
+            "linkText": "Fermer",
+            "text": "Vos modifications sur le parcours CRM ont bien été prises en compte !",
+            "title": "Félicitations"
+          }
+        },
+        "title": "Parcours de questions"
+      }
+    },
+    "customer": {
+      "customerDetailPage": {
+        "activities": {
+          "empty": {
+            "answerCrm": "Ce client n'a aucune activité liée aux questions CRM",
+            "campaignMessage": "Ce client n'a aucune activité liée aux campagnes SMS",
+            "checkin": "Ce client n'a aucune activité liée aux visites",
+            "contestGameParticipation": "Ce client n'a aucune activité liée au jeu concours",
+            "default": "Ce client n'a encore aucune activité",
+            "manualPoint": "Ce client n'a aucune activité liée aux points manuels",
+            "missedCalls": "Ce client n'a aucune activité liée aux appels",
+            "reward": "Ce client n'a aucune activité liée aux récompenses",
+            "survey": "Ce client n'a aucune activité liée aux sondages",
+            "autopilot": "Ce client n'a aucune activité liée au marketing automatisé",
+            "webapp": "Ce client n'a aucune activité liée à la WebApp"
+          },
+          "noStore": "Boutique supprimée"
+        },
+        "blocks": {
+          "activity": {
+            "answerCrm": {
+              "noAnswer": "{question} : n'a pas souhaité répondre",
+              "text": "A répondu {answer} pour la question {question}"
+            },
+            "autopilot": {
+              "text": "A gagné {points} points via le marketing automatisé",
+              "detail": {
+                "title": "Message automatisé"
+              }
+            },
+            "campaign": {
+              "detail": {
+                "title": "Message"
+              },
+              "text": "A reçu un SMS"
+            },
+            "checkin": {
+              "text": "A gagné {points} points à {store}"
+            },
+            "contestGameParticipation": {
+              "text": {
+                "lose": "A perdu à un jeu concours",
+                "win": "A gagné {reward} au jeu concours à {store}"
+              }
+            },
+            "manualPoints": {
+              "text": "{points} points ont été attribués manuellement"
+            },
+            "missedCall": {
+              "detail": {
+                "title": "Appels"
+              },
+              "text": {
+                "isClicked": "A cliqué sur le lien reçu par SMS suite à son appel à {store}",
+                "isNotClicked": "A appelé la boutique {store}"
+              }
+            },
+            "reward": {
+              "text": "A obtenu une récompense : {reward}"
+            },
+            "survey": {
+              "detail": {
+                "title": "Question"
+              },
+              "text": {
+                "answer": "A répondu {choice}",
+                "noAnswer": "N'a pas souhaité répondre"
+              }
+            },
+            "webapp_survey": {
+              "text": "A gagné {points} points en repondant à un sondage via webapp de {store}"
+            },
+            "webapp_crm": {
+              "text": "A gagné {points} points en complétant ses informations personnelles via la webapp de {store}"
+            },
+            "webapp_review": {
+              "text": "A gagné {points} points en laissant un avis via la webapp de {store}"
+            },
+            "webapp_contest": {
+              "text": "A gagné {points} points en participant à un jeu concours via webapp de {store}"
+            },
+            "title": "Activité"
+          },
+          "checkinsStats": {
+            "checkinCount": "Nombre de visites",
+            "description": {
+              "man": "Son historique chez {merchantName}",
+              "woman": "Son historique chez {merchantName}"
+            },
+            "lastVisit": "Dernière visite",
+            "registerDate": "Enrôlé le",
+            "title": "Statistiques de visites",
+            "visitsFrequency": "Fréquence de visite"
+          },
+          "identification": {
+            "description": {
+              "man": "Ses coordonnées & son profil",
+              "woman": "Ses coordonnées & son profil"
+            },
+            "dob": "Date de naissance",
+            "linkMoreInformation": "Obtenir + d'infos sur son profil",
+            "mail": "Adresse mail",
+            "phone": "Téléphone",
+            "title": "Informations personnelles"
+          },
+          "points": {
+            "buttons": {
+              "add": "Ajouter",
+              "substract": "Retirer"
+            },
+            "or": "ou",
+            "points": "points",
+            "pointsAbbreviation": "pts",
+            "title": "Points"
+          },
+          "productStats": {
+            "title": "Statistiques de consommation",
+            "description": {
+              "man": "Son historique de consommation",
+              "woman": "Son historique de consommation"
+            },
+            "favoriteProducts": "Produits préférés",
+            "averageTicketAmount": "Panier moyen"
+          }
+        },
+        "buttons": {
+          "deleteCustomer": "Supprimer le client"
+        },
+        "confirm": {
+          "points": {
+            "subtitle": "Votre client aura désormais {points} points",
+            "title": "Êtes-vous sûr(e) ?",
+            "confirmPointsUpdate": "Valider"
+          }
+        },
+        "customerDetail": {
+          "man": "Client de <b>{referenceStore}</b> depuis le <b>{registerDate}</b>",
+          "woman": "Cliente de <b>{referenceStore}</b> depuis le <b>{registerDate}</b>"
+        },
+        "deleteCustomer": {
+          "confirm": {
+            "description": "Cet utilisateur sera supprimé définitivement.",
+            "title": "Êtes-vous sûr(e) de vouloir supprimer cet utilisateur ?"
+          },
+          "error": "Une erreur est survenue lors de la suppression du client",
+          "success": "Le client a été supprimé avec succès"
+        },
+        "filters": {
+          "all": "Toute l'activité",
+          "answerCrm": "Questions CRM",
+          "campaignMessage": "Campagnes SMS",
+          "checkin": "Visites",
+          "contestGameParticipation": "Jeu concours",
+          "manualPoint": "Points manuels",
+          "missedCalls": "Appels",
+          "reward": "Récompenses",
+          "survey": "Sondages",
+          "autopilot": "Marketing automatisé",
+          "webapp": "WebApp"
+        },
+        "notifications": {
+          "hasOptin": {
+            "success": {
+              "false": "Ce client ne recevra plus les SMS",
+              "true": "Ce client recevra désormais les SMS"
+            }
+          },
+          "points": {
+            "success": {
+              "false": "Une erreur a eu lieu lors de la modification. Veuillez réessayer",
+              "true": "Les points de votre client ont été modifiés avec succès"
+            }
+          }
+        },
+        "optin": {
+          "false": {
+            "description": "Ce client ne souhaite pas recevoir de SMS de {merchantName}",
+            "title": "Refuse les SMS"
+          },
+          "true": {
+            "description": "Ce client a demandé à recevoir des SMS de {merchantName}",
+            "title": "Accepte les SMS"
+          }
+        }
+      },
+      "customerPage": {
+        "blocks": {
+          "create": {
+            "description": "Ajouter un nouveau client",
+            "fields": {
+              "chooseStore": "Choisissez une boutique",
+              "phone": "Numéro de téléphone",
+              "points": "Points",
+              "store": "Boutique",
+              "tags": "Tags"
+            },
+            "title": "Nouveau client"
+          }
+        },
+        "cards": {
+          "atRisk": "Clients à risque",
+          "new": "Nouveaux clients",
+          "occasional": "Clients ponctuels",
+          "vip": "Clients VIP"
+        },
+        "cta": {
+          "create": "Ajouter un client"
+        },
+        "description": "Tous vos clients, des VIP aux clients \"à risque\"",
+        "export": {
+          "button": "Exporter les données (.csv)"
+        },
+        "filters": {
+          "ages": "Âges",
+          "channelTags": "Canaux de vente",
+          "datesFromTo": "entre le {from} et le {to}",
+          "description": "Rechercher des clients en fonction de vos critères",
+          "frequencyTypes": "Types",
+          "genders": "Genres",
+          "hasOptin": "Accepte les SMS",
+          "lastCheckinDate": "Dernière visite",
+          "marketingTags": "Modules marketing",
+          "men": "Hommes",
+          "optin": {
+            "0": "Non",
+            "1": "Oui",
+            "2": "Non défini"
+          },
+          "points": "Points",
+          "profile": "Profil",
+          "registerDate": "Date d'inscription",
+          "tags": "Tags",
+          "titles": {
+            "engagement": "Engagement",
+            "period": "Période",
+            "profile": "Profil",
+            "source": "Source"
+          },
+          "unknown": "Non défini",
+          "visits": "Visites",
+          "women": "Femmes"
+        },
+        "noResults": {
+          "description": "Réessayez en changeant vos critères de recherche",
+          "reset": "Réinitialiser mes critères",
+          "title": "Oups, pas de résultats !"
+        },
+        "notifications": {
+          "create": {
+            "existingPhone": "Ce numéro de téléphone est déjà présent dans votre base client",
+            "phoneRequired": "Vous devez spécifier un numéro de téléphone",
+            "pointsRequired": "Vous devez spécifier un nombre de points (0 ou +)",
+            "storeRequired": "Vous devez spécifier une boutique",
+            "success": "Le client a été ajouté avec succès"
+          }
+        },
+        "statisticsPromotion": {
+          "description": "Découvrez votre client type et visualisez les grands attributs de votre base clients en 2 clics",
+          "headline": "Vos stats en temps réel",
+          "link": "Voir mes stats",
+          "title": "Connaissez tous vos clients, sur le bout des doigts 👌"
+        },
+        "tables": {
+          "thead": {
+            "checkins": "Visites",
+            "customer": "Client",
+            "lastCheckin": "Dernière visite",
+            "points": "Points",
+            "salesChannels": "Canaux de vente",
+            "type": "Type"
+          }
+        },
+        "title": "Mes clients"
+      },
+      "emptyState": {
+        "button": "Ajouter un client",
+        "description": "Constituez votre propre base de données et bénéficiez d'un point de contact avec chacun de vos clients.",
+        "title": "Bientôt vos premiers clients !"
+      }
+    },
+    "success": {
+      "goalReminder": "Hop, un peu de magie par ici. Votre page d'accueil est personnalisée pour vous aider à : ",
+      "steps": {
+        "title": {
+          "notComplete": "Lancez-vous en quelques minutes !",
+          "complete": "Bravo, vous avez terminé les étapes d'activation !"
+        }
+      },
+      "shortcut": {
+        "title": "Passez à la vitesse supérieure",
+        "subTitle": {
+          "default": "Assurez le succès de votre fonctionnalité en accomplissant un maximum d’actions complémentaires"
+        },
+        "shortcutType": {
+          "template": {
+            "contests": {
+              "name": "Jeux concours",
+              "cta": "Créer mon jeu concours"
+            },
+            "survey": {
+              "name": "Sondage",
+              "cta": "Utiliser ce template"
+            },
+            "campaign": {
+              "name": "Campagne SMS",
+              "cta": "Utiliser ce template"
+            },
+            "cta": "Voir"
+          },
+          "redirection": {
+            "name": "Marketing automatisé",
+            "cta": "Voir"
+          },
+          "smsCampaign": {
+            "name": "Campagne SMS",
+            "cta": "Voir"
+          },
+          "fidelity": {
+            "name": "Fidélité",
+            "cta": "Voir"
+          },
+          "article": {
+            "name": "Article",
+            "cta": "Lire"
+          },
+          "gameContest": {
+            "name": "Jeux concours",
+            "cta": "Voir"
+          },
+          "tip": {
+            "name": "Tips",
+            "cta": "Lire"
+          },
+          "missedCalls": {
+            "name": "Appels manqués",
+            "cta": "Voir"
+          },
+          "survey": {
+            "name": "Sondage",
+            "cta": "Voir"
+          }
+        }
+      },
+      "helper": {
+        "title": "Besoin d’aide ?",
+        "subtitle": "Utilisez Hey Pongo comme un chef",
+        "description": "Nos experts seront ravis de vous accompagner vers le succès",
+        "linkAm": "Prendre rendez-vous",
+        "faq": {
+          "emoji": "📚 ",
+          "title": "Voir notre F.A.Q"
+        },
+        "blog": {
+          "emoji": "🗞",
+          "title": "Nos articles",
+          "read": "Lire",
+          "min": "min"
+        }
+      },
+      "communities": {
+        "title": "Apprenez des meilleurs",
+        "whatsapp": {
+          "title": "Rejoindre la communauté WhatsApp"
+        },
+        "webinaire": {
+          "title": "Participer à nos Webinaires"
+        }
+      },
+      "errors": {
+        "faq": "Une erreur est survenue avec les FAQs ",
+        "blog": "Une erreur est survenue avec les articles "
+      },
+      "modal": {
+        "confirm": "C'est d'accord",
+        "cancel": "Non merci",
+        "success": "La demande de rappel a bien été prise en compte"
+      }
+    },
+    "dashboard": {
+      "dashboardPage": {
+        "autopilot": {
+          "empty": {
+            "link": "Activer mes scénarios",
+            "subtitle": "Envoyez des messages personnalisés à vos clients",
+            "title": "Aucun scénario disponible sur la période"
+          },
+          "link": "Gérer mes scénarios",
+          "title": "Taux de conversion du meilleur scénario | Taux de conversion des meilleurs scénarios"
+        },
+        "banner": {
+          "button": "Demander une démo",
+          "description": "Un de nos modules vous intéresse ? Bénéficiez d’une démo personnalisée avec l’un de nos experts marketing.",
+          "title": "Découvrez nos offres"
+        },
+        "campaign": {
+          "converted": "Convertis",
+          "empty": {
+            "link": "Créer une campagne",
+            "subtitle": "Faites grossir votre CA grâce aux campagnes SMS",
+            "title": "Aucune campagne SMS sur la période"
+          },
+          "link": "Voir ma campagne",
+          "title": "Ma meilleure campagne",
+          "turnover": "CA générés"
+        },
+        "contest": {
+          "empty": {
+            "link": "Créer un jeu concours",
+            "subtitle": "Engagez vos clients",
+            "title": "Aucun jeu concours sur la période"
+          },
+          "link": "Voir mon jeu concours",
+          "participants": "Participants",
+          "rewards": "Récompenses",
+          "title": "Mon meilleur jeu concours"
+        },
+        "crumbs": "Tableau de bord",
+        "description": "Retrouvez les chiffres clés de votre boutique et suivez les performances de vos différents modules",
+        "inStore": {
+          "currentPeriod": "Période actuelle",
+          "newMembers": "Nouveaux membres",
+          "previousPeriod": "Période précédente",
+          "rewards": "Récompenses",
+          "tooltip": {
+            "newMembers": "nouveau membre | nouveaux membres",
+            "rewards": "récompense | récompenses",
+            "visitors": "visiteur | visiteurs"
+          },
+          "visitors": "Visiteurs"
+        },
+        "review": {
+          "empty": {
+            "link": "Connecter mes avis",
+            "subtitle": "Connectez-vous à une plateforme",
+            "title": "Vos avis ne sont pas encore importés ?"
+          },
+          "link": "Voir mes statistiques",
+          "ratingAverage": "Note moyenne",
+          "repliedRate": "Avis traités",
+          "title": "Gestion de mes avis client"
+        },
+        "reward": {
+          "empty": {
+            "link": "Créer une récompense",
+            "subtitle": "Ajoutez des récompenses",
+            "title": "Aucune récompense sur la période"
+          },
+          "link": "Voir les récompenses données",
+          "title": "Meilleure récompense donnée | Top { count } récompenses données"
+        },
+        "subtitles": {
+          "autopilot": "Marketing automatisé",
+          "campaign": "Campagne SMS",
+          "fidelity": "Programme de fidélité",
+          "gameContest": "Jeux concours",
+          "hourlyVisitors": "Visiteurs par heure",
+          "pongoInStore": "Performance fidélité",
+          "review": "Avis clients",
+          "survey": "Sondage",
+          "visitors": "visiteur | visiteurs"
+        },
+        "survey": {
+          "empty": {
+            "link": "Créer un sondage",
+            "subtitle": "Enrichissez votre connaissance client",
+            "title": "Aucun sondage sur la période"
+          },
+          "link": "Gérer mon sondage",
+          "rate": "Taux de réponse",
+          "title": "Mon meilleur sondage"
+        },
+        "title": "Bonjour { merchantName } 👋"
+      },
+      "rewardsPage": {
+        "cards": {
+          "fromDate": "Du",
+          "rewardsGiven": "Récompenses données",
+          "toDate": "Au"
+        },
+        "description": "Retrouvez la liste des récompenses attribuées à vos clients",
+        "tables": {
+          "thead": {
+            "customer": "Client",
+            "date": "Date",
+            "reward": "Récompense",
+            "store": "Boutique"
+          }
+        },
+        "title": "Récompenses données"
+      }
+    },
+    "exports": {
+      "emptyState": {
+        "description": "N'hésitez pas à revenir une fois que vous aurez exporté votre base client.",
+        "title": "Oups, pas de résultats !"
+      },
+      "exportPage": {
+        "contest-game-participants": "Jeu concours",
+        "customer": "Base clients",
+        "description": "Retrouvez ici vos exports. Ceux-ci sont conservés pour une durée de 30 jours.",
+        "tables": {
+          "thead": {
+            "createdAt": "Lancé le",
+            "exportType": "Type d'export",
+            "filename": "Fichier",
+            "processedAt": "Terminé le",
+            "status": "Statut"
+          }
+        },
+        "title": "Mes exports"
+      }
+    },
+    "import": {
+      "emptyState": {
+        "description": "Importez vos premiers clients et gardez-en une trace",
+        "title": "Vos premiers imports"
+      },
+      "historyPage": {
+        "at": "à",
+        "description": "L'historique de vos imports",
+        "error": "Nous avons rencontré une erreur, veuillez contacter notre service client",
+        "name": "Import depuis le fichier",
+        "progress": "en cours dans",
+        "title": "Mes imports",
+        "users": "utilisateurs importés dans"
+      },
+      "importPage": {
+        "create": {
+          "link": "Uploader mon fichier (.csv, .xls, .xlsx)",
+          "title": "Ou importez vos clients à partir d'un fichier"
+        },
+        "modal": {
+          "breadcrumbs": {
+            "finalize": "Confirmation",
+            "initialize": "Chargement du fichier",
+            "map-columns": "Correspondance",
+            "param": "Paramétrage",
+            "success": "Résultat"
+          },
+          "buttons": {
+            "cancel": "Annuler",
+            "check": "Voir mes imports",
+            "close": "Fermer",
+            "next": "Suivant",
+            "prev": "Précédent"
+          },
+          "error": {
+            "error1": "pas de numéro de téléphone ou d'email renseigné",
+            "lines": "1 ligne | {count} lignes sans numéro de téléphone ou email renseigné",
+            "subtitle": "Nous avons ignoré",
+            "title": "Détail des erreurs"
+          },
+          "finalize": {
+            "has": "Votre fichier contient",
+            "ignore": "utilisateurs n'ont pas d'email ni de numéro téléphone, nous devrons les ignorer.",
+            "lines": "lignes",
+            "subtitle": "Merci de vérifier que votre import est bien configuré. Les données seront importées selon le format suivant, dans",
+            "title": "Voulez-vous confirmer cet import ?"
+          },
+          "initialize": {
+            "download": "télécharger un exemple",
+            "drag": "Glisser et déposer votre fichier pour télécharger ou",
+            "replace": "Remplacer le fichier",
+            "select": "Sélectionner un fichier",
+            "subtitle": "Vous pouvez importer vos clients à partir d'un fichier csv, ods, xls, xlsx ou",
+            "title": "Charger votre fichier"
+          },
+          "mapping": {
+            "birthdate": "anniversaire",
+            "country": "pays",
+            "email": "email",
+            "firstname": "prénom",
+            "gender": "sexe",
+            "ignore": "Ignorer",
+            "last_visit_date": "date de dernière viste",
+            "lastname": "nom",
+            "phone": "mobile",
+            "points": "points",
+            "register_date": "inscrit le",
+            "subtitle": "Nous devons vérifier la correspondance entre le fichier et nos paramétrages. Un email ou numéro de téléphone est nécessaire",
+            "title": "Correspondance des valeurs"
+          },
+          "mobile": {
+            "subtitle": "En effet afin de garantir le bon fonctionnement de l'import avec un affichage optimal, nous demandons à nos utilisateurs de bien vouloir essayer à partir d'un écran plus large.",
+            "title": "Veuillez visualiser cette page sur un ordinateur"
+          },
+          "notifications": {
+            "fileParam": "Il y a un problème avec le format de votre fichier, veuillez consulter le fichier d'exemple",
+            "genericError": "Nous avons rencontré un problème de traitement avec votre fichier, veuillez revoir les informations saisies",
+            "mappingError": "Vous devez renseigner un numéro de téléphone ou un email",
+            "unsupportedFileType": "Nous ne pouvons traiter que les fichiers csv, ods, xls et xlsx"
+          },
+          "params": {
+            "channelTags": "Canaux de vente",
+            "header": "La première ligne du fichier est un entête",
+            "headerDesc": "Entête du tableau, à savoir le nom de chacune des colonnes",
+            "marketingTags": "Modules marketing",
+            "optin": "Les clients sont optin",
+            "optinDesc": "En cochant cette case, vous vous engagez à ce que tous vos clients aient autorisés l'utilisation de leurs numéros de téléphone par nos services",
+            "profile": "Profil",
+            "select": "Veuillez sélectionner une boutique",
+            "subtitle": "Vous allez importer vos clients dans",
+            "tags": "Tags"
+          },
+          "success": {
+            "importUsers": "Votre import de {count} clients sera effectif dans quelques instants. Vous pouvez retrouver tous vos imports dans votre compte, dans le menu 'Mes imports'",
+            "subtitle": "Votre base clients grandit à vitesse grand V !",
+            "title": "Bravo !"
+          }
+        }
+      }
+    },
+    "loyaltyPage": {
+      "buttons": {
+        "launchProgram": "Lancer mon programme",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "newReward": "Nouvelle récompense"
+      },
+      "confirm": {
+        "modal": {
+          "preview": {
+            "leftTitle": "Félicitations 🎉",
+            "leftSubtitle": "Votre programme de fidélité a bien été créé",
+            "rightTitle": "Comment vos clients accéderont-ils à votre programme de fidélité ?"
+          },
+          "text": "Êtes-vous sûr(e) de vouloir supprimer la récompense : {reward} ?",
+          "title": "Suppression d'une récompense"
+        }
+      },
+      "create": {
+        "title": "Créer une nouvelle récompense"
+      },
+      "createReward": {
+        "success": "La récompense a été créée avec succès"
+      },
+      "cta": {
+        "create": "Ajouter une récompense",
+        "edit": "Éditer une récompense"
+      },
+      "deleteReward": {
+        "error": "Une erreur est survenue lors de la suppression de la récompense",
+        "success": "La récompense a été supprimée avec succès"
+      },
+      "description": "Collectez de précieuses données sur vos clients en leur proposant un programme de fidélité intuitif et innovant",
+      "discountOf": "Remise de {value}",
+      "edit": {
+        "fields": {
+          "choose": "Choisir",
+          "discountPercent": "Remise en %",
+          "discountValueEuro": "Remise en €",
+          "discountValuePercent": "Remise en %",
+          "euroDiscount": "Remise en €",
+          "freeDelivery": "Livraison gratuite",
+          "freeOrder": "Panier offert",
+          "freeProduct": "Produit offert",
+          "image": "Image",
+          "included": "Cette récompense sera disponible dans :",
+          "minimumOrderAmount": "Montant minimum de la commande",
+          "name": "Nom de la récompense",
+          "points": "Nombre de points requis",
+          "externalId": "SKU",
+          "rewardType": "Type de récompense",
+          "validityInDays": "Nombre de jours valable"
+        },
+        "title": "Modifier la récompense"
+      },
+      "editReward": {
+        "success": "La récompense a été modifiée avec succès"
+      },
+      "emptyState": {
+        "description": "Vous n'avez pas encore de récompenses configurées pour votre programme de fidélité",
+        "title": "Créez votre première récompense !"
+      },
+      "form": {
+        "discountValueEuro": {
+          "required": "La remise en euros est obligatoire et doit être supérieure à 0"
+        },
+        "discountValuePercent": {
+          "required": "La remise en pourcentage est obligatoire et ne doit pas être supérieure à 100"
+        },
+        "minimumOrderAmount": {
+          "required": "Le montant minimum de commande est obligatoire et doit être supérieur à 0"
+        },
+        "name": {
+          "required": "Le nom de la récompense est obligatoire"
+        },
+        "points": {
+          "required": "Vous devez spécifier un nombre de points supérieur à 0"
+        },
+        "validityInDays": {
+          "required": "Le nombre de jours est obligatoire et doit être supérieur à 0"
+        }
+      },
+      "grid": {
+        "points": "1 point | {points} points",
+        "storeIds": "Une boutique concernée | {storesCount} boutiques concernées",
+        "storesNone": "Aucune boutique"
+      },
+      "loyaltyMerchantPage": {
+        "tablet": {
+          "editButton": "Changer",
+          "homeImages": "Images d'accueil",
+          "mockup": {
+            "cgu": "CGU",
+            "connect": "Connecté",
+            "data": "Données",
+            "proposedBy": "Proposé par Heypongo"
+          },
+          "modal": {
+            "submit": "Valider",
+            "title": "Modifier une image"
+          },
+          "nextStep": "Vous n’avez pas de tablette ? Passez cette étape",
+          "subtitle": "Ajoutez 4 images qui représentent votre métier et qui donnent envie à vos clients",
+          "title": "Personnalisez l'affichage de page d'accueil"
+        }
+      },
+      "loyaltyDematerialized": {
+        "title": "Créez votre programme de fidélité",
+        "subtitles": {
+          "appearance": "Modifiez l'apparence",
+          "rewards": "Créez vos récompenses",
+          "config": "Configurez vos paramètres",
+          "launch": "Découvrez comment partager votre mini-site"
+        },
+        "tabs": {
+          "appearance": "Apparence",
+          "rewards": "Récompenses",
+          "config": "Configuration",
+          "launch": "Lancement"
+        },
+        "appearance": {
+          "disclosure": "Personnalisez l’apparence de votre programme de fidélité"
+        },
+        "config": {
+          "pointsEarned": {
+            "title": "Gain de points",
+            "subtitle": "Comment souhaitez-vous récompenser vos clients ?",
+            "pointsInput": {
+              "label": "Configurez le nombre de points gagnés"
+            },
+            "radioGroup": {
+              "pointsByCurrencyUnit": {
+                "title": "1€ = à X points",
+                "description": "Récompensez vos clients à hauteur de leur dépense"
+              },
+              "fixedPointsAmount": {
+                "title": "1 passage = X points",
+                "description": "Récompensez vos clients à chaque passage"
+              }
+            }
+          },
+          "carousel": {
+            "title": "Carrousel d’engagement",
+            "subtitle": "Faites gagner 5 points à vos clients pour chaque action à valeur effectuées.",
+            "items": {
+              "google": {
+                "title": "Avis google",
+                "subtitle": "Ils vous laissent un avis sur votre compte google"
+              },
+              "personalInfo": {
+                "title": "Information personelle",
+                "subtitle": "Ils complètent leurs profils"
+              },
+              "survey": {
+                "title": "Sondage",
+                "subtitle": "Ils répondent aux questions que vous leur posez"
+              },
+              "gameContest": {
+                "title": "Jeux concours",
+                "subtitle": "Ils participent à vos jeux concours"
+              }
+            }
+          }
+        },
+        "launch": {
+          "title": "Partagez votre programme de fidélité",
+          "qrCode": {
+            "title": "Créez votre propre PLV",
+            "description": "Téléchargez le QR code qui permettra à vos cliens d'accéder à leur compte",
+            "button": "Téléchargez le QRcode"
+          },
+          "flyers": {
+            "title": "Utilisez notre modèle",
+            "description": "Téléchargez notre modèle de flyer à présenter en point de vente ",
+            "button": "Téléchargez votre flyer"
+          },
+          "miniSite": {
+            "title": "Partagez votre programme",
+            "description": "Copiez le lien de votre mini-site qui permettra à vos clients d'accéder à leur compte"
+          }
+        },
+        "modal": {
+          "title": "Quelques conseils et bonnes pratiques pour bien démarrer",
+          "download": "✅ Téléchargement en cours ...",
+          "steps": {
+            "download": {
+              "id": "1",
+              "description": "Téléchargez votre QR-code"
+            },
+            "verify": {
+              "id": "2",
+              "description": "Vérifiez que le QR-code correspond à la bonne caisse"
+            },
+            "place": {
+              "id": "3",
+              "description": "Placez-le évidence près de la caisse associée"
+            },
+            "ready": {
+              "id": "4",
+              "description": "C’est prêt ! Vos clients n’ont plus qu’à scanner"
+            }
+          },
+          "validate": {
+            "description": "J’ai bien compris comment mettre en avant mon programme de fidélité 100% dématérialisé 😉",
+            "button": "Terminer"
+          }
+        },
+        "notifications": {
+          "errors": {
+            "downloadQrcode": "Erreur dans le téléchargement des qr codes",
+            "partnerIntegrations": "Aucunes intégrations n'a été trouvées",
+            "update": "Les informations n'ont pas pu être mises à jour"
+          },
+          "success": {
+            "redirectionPlv": "Votre PLV a été correctement généré, vous allez le recevoir par e-mail d'ici quelques instants"
+          }
+        }
+      },
+      "mockup": {
+        "devices": {
+          "tablet": {
+            "name": "Tablette",
+            "linkTitle": "Sur une tablette en magasin",
+            "linkSubtitle": "Télécharger et installer l'app Hey Pongo"
+          },
+          "terminal": {
+            "name": "Borne",
+            "linkTitle": "Sur une borne en magasin",
+            "linkSubtitle": "Contacter un expert Hey Pongo"
+          },
+          "webapp": {
+            "name": "WebApp",
+            "linkTitle": "Sur un smartphone",
+            "linkSubtitle": "Copier le lien de votre mini-site",
+            "header": {
+              "title": "Hey 👋",
+              "subtitle": "Ravi de te voir !"
+            },
+            "slider": {
+              "title": {
+                "survey": "Hey, tu as 20 secondes ? On a une petite question à te poser",
+                "crm": "Apprenons à nous connaître ! Complète tes informations personnelles",
+                "review": "Il y a de l’amour dans l’air. N’hésite pas à nous laisser un avis sur Google",
+                "contest": "Encore plus de récompenses !? Tente ta chance de remporter encore plus de cadeaux"
+              },
+              "button": {
+                "survey": "Je réponds",
+                "crm": "J’y vais",
+                "review": "Laisser un avis",
+                "contest": "Je joue"
+              }
+            },
+            "howTo": "Comment ça marche ?",
+            "rewards": {
+              "title": "Mes récompenses",
+              "subtitle": "Ton solde de points te permet de débloquer la récompense de ton choix",
+              "points": "points",
+              "just": "Plus que"
+            },
+            "empty": {
+              "cannotFind": "Nous ne trouvons",
+              "reward": "aucune récompense",
+              "for": "pour cette boutique"
+            },
+            "madeBy": "Proposé avec amour par"
+          }
+        },
+        "hello": "Hey 👋",
+        "missingPoints": {
+          "points": "{missingPoints} points",
+          "text": "Plus que"
+        },
+        "points": "points",
+        "quitButton": "J'attends la prochaine fois",
+        "rewards": "Mes récompenses",
+        "toWin": "À gagner"
+      },
+      "preview": "Aperçu",
+      "showAllRewards": "Afficher toutes les récompenses (même exclues)",
+      "tabs": {
+        "config": "Ma configuration",
+        "myConfig": {
+          "points": {
+            "title": "Paramètrage des points"
+          },
+          "tablet": {
+            "title": "Paramètrage de la tablette"
+          },
+          "title": "Configurer les paramètres du programme de fidélité"
+        },
+        "myTexts": {
+          "formal": {
+            "radio": {
+              "first": {
+                "description": "Vous utilisez un ton informel",
+                "title": "Tutoyer"
+              },
+              "second": {
+                "description": "Vous utilisez un ton formel",
+                "title": "Vouvoyer"
+              }
+            },
+            "title": "Quel ton souhaitez-vous adopter ?"
+          },
+          "loyalty": {
+            "crm": "Lorsqu'on lui pose des questions (parcours CRM)",
+            "phone": "Lorsqu'il saisit son numéro de téléphone",
+            "pointsWon": "Lorsqu'il gagne des points",
+            "title": "Mon programme de fid'"
+          },
+          "notification": "Gagnez du temps sur la création de votre programme de fidélité en sautant cette étape ! Nos textes ont été pensés pour convenir à tout type de commerce. Besoin de modifier une information ? Rassurez-vous, vous pouvez le faire à tout moment.",
+          "rewards": {
+            "rewardsTexts": "Lorsqu'il voit ses récompenses",
+            "rewardWon": "Lorsqu'il gagne une récompense",
+            "title": "Mes récompenses"
+          },
+          "tablet": {
+            "homePage": "Sur la page d'accueil",
+            "title": "Ma tablette"
+          },
+          "title": "Configurer les textes de votre programme de fidélité"
+        },
+        "rewards": {
+          "description": "Gérer les récompenses de mon programme de fidélité",
+          "title": "Mes récompenses"
+        },
+        "tablet": "Ma tablette",
+        "texts": "Mes textes"
+      },
+      "title": "Mon programme de fidélité",
+      "titleWithTemplate": "Personnalisez un nouveau sondage"
+    },
+    "loyalty": {
+      "emptyState": {
+        "startFromZero": "Ou commencer à partir de zéro :",
+        "button": "Créer mon programme de fidelité"
+      },
+      "modal": {
+        "title": "Programme de fidélité",
+        "buttonTitle": "Utiliser ce modèle",
+        "template": "Ou utiliser un modèle",
+        "detail": {
+          "title": "Ce template contient :",
+          "rewards": {
+            "title": "🎁 Récompenses :",
+            "description": "{count} produit offert | {count} produits offerts"
+          }
+        }
+      },
+      "templates": {
+        "cards": {
+          "button": "Utiliser"
+        },
+        "tips": "Créer un programme de fidélité en 2 clics en utilisant un de nos modèles :",
+        "seeAllTemplates": "Voir tous les modèles"
+      },
+      "create": {
+        "chooseExperience": "Pour commencer, choisissez l'expérience de fidelité qui correspond à vos besoins",
+        "magicScan": "Fidelité sans contact",
+        "magicScanDescription": "Proposez à vos clients une expérience de fidelité 100% dématérialisée via un QR Code en magasin. Simple d'usage, innovante et ludique. Elle ne nécessite aucun matériel.",
+        "tabletDescription": "Proposez à vos clients une expérience de fidelité via une tablette tactile en magasin ou directement sur votre site internet.",
+        "tablet": "Fidelité sur tablette ou en ligne",
+        "next": "Suivant",
+        "previous": "Précédent",
+        "understandLoyalty": "Comprendre l'expérience de fidelité sans contact",
+        "startLoyalty": "Pour démarrer la configuration, sélectionnez votre logiciel de caisse",
+        "selectTablet": "Sélectionnez la fidelité sur tablette ou en ligne",
+        "getInTouch": "Se faire rappeler par un expert Pongo",
+        "getInTouchDescription": "Discutons ensemble des possibilités qui s'offrent à vous pour fidéliser vos clients.",
+        "connectIntegration": "Maintenant, connectez votre logiciel de caisse",
+        "connect": "Se connecter",
+        "email": "Adresse E-mail",
+        "password": "Mot de passe",
+        "chooseIntegration": "Choisissez les caisses à associer à votre programme de fidelité",
+        "id": "Identifiant",
+        "createLoyalty": "Créer mon programme de fidelité",
+        "informationMessage": "Pouvez-vous m'accompagner pour configurer l'intégration {name} ?",
+        "integrationError": "La connexion avec {name} n'a pas fonctionné. Vérifiez que vos identifiants sont corrects et réessayez.",
+        "fillFormError": "Veuillez remplir le formulaire",
+        "instructions": {
+          "afterPayment": "Après avoir payé, vos clients scannent le QR Code de fidelité.",
+          "withScan": "Grâce à ce scan, ils sont redirigés vers notre espace de fidelité en ligne et gagnent des points.",
+          "withPoints": "Avec ces points, ils peuvent débloquer les récompenses de votre programme.",
+          "retrieve": "Pour les récupérer en magasin, ils peuvent présenter le QR Code unique de récompense.",
+          "softNotFound": "Mon logiciel de caisse ne figure pas dans la liste",
+          "softNotFoundAsk": "Votre logiciel ne figure pas dans la liste ?",
+          "login": "Connectez-vous avec vos identifiants",
+          "chooseSoft": "Choisissez les caisses sur lesquelles vous souhaitez proposer l'expérience de fidelité",
+          "addSoft": "Ajoutez un programme de fidelité à votre logiciel",
+          "softName": "Nom de la caisse",
+          "pongoStore": "Boutique Pongo",
+          "associate": "Associer",
+          "selectStore": "Sélectionnez une boutique"
+        },
+        "addSoftware": "Ajoutez un programme de fidelité à votre logiciel",
+        "help": "Consulter le centre d'aide",
+        "nextSteps": "Prochaines étapes",
+        "yourCredentials": "Vos identifiants {name}",
+        "fillAssociateError": "Veuillez sélectionner au moins une caisse",
+        "steps": "Étape {from} sur {to}",
+        "instructionsLaddition": {
+          "login": "Copiez votre identifiant partenaire",
+          "connect": "Connectez-vous à votre compte l'addition",
+          "hash": "Collez votre hash dans la section \"identifiant partenaire\"",
+          "continue": "Une fois l'opération terminée, revenez sur cette page et cliquez sur \"Se Connecter\""
+        },
+        "yourPartnerCredential": "Identifiant partenaire"
+      }
+    },
+    "marketplace": {
+      "marketplacePage": {
+        "availableSoon": "Bientôt disponible",
+        "buttons": {
+          "settings": "Configurer"
+        },
+        "description": "Connectez Pongo à vos applications",
+        "dialogSubtitle": "En activant / désactivant cette intégration, le changement sera répercuté sur toutes les tablettes associées.",
+        "dialogTitle": "Êtes-vous sûr(e) de vouloir faire cette modification ?",
+        "form": {
+          "authentication": {
+            "apiKey": "API Key",
+            "apiSecret": "API Secret",
+            "apiToken": "API Token",
+            "apiUrl": "URL de votre site web",
+            "merchantIdFromPartner": "Identifiant commerçant",
+            "title": "Authentification",
+            "oauth": "Se connecter à {partner}"
+          },
+          "errors": {
+            "alreadyAssociated": "Cette boutique est déjà associée"
+          },
+          "partnerParameter": {
+            "formError": "Nous ne pouvons pas ajouter votre intégration. Veuillez vérifier les données saisies dans le formulaire."
+          },
+          "settings": {
+            "attachTo": "Relier à",
+            "defineStore": "Définir une boutique",
+            "failedSubtitle": "Sous-titre en cas de non-gain de points",
+            "failedTitle": "Titre en cas de non-gain de points",
+            "isFormal": "Utiliser le vouvoiement dans les textes suivants",
+            "messageChannel": {
+              "mail": "Mail",
+              "sms": "SMS",
+              "title": "Envoyer une notification après la commande ?"
+            },
+            "minimumAmount": "Minimum de commande en €",
+            "pointsByCurrencyUnit": "Points par € dépensé",
+            "pointsClaimingDelay": "Délai d'affichage des points (en secondes)",
+            "fixedPointsAmount": "Nombre de points fixe par commande",
+            "pointsClaimingSubtitle": "Sous-titre",
+            "pointsClaimingTitle": "Titre",
+            "stores": "Boutiques",
+            "subtitle": "Définissez le fonctionnement de cette intégration",
+            "title": "Paramétrage",
+            "howToUrl": "Suivez ce tutoriel pour connecter votre boutique à Pongo"
+          },
+          "webhooks": {
+            "title": "Webhooks",
+            "description": "Vous pouvez ajouter des webhooks à votre boutique",
+            "id": "Identifiant",
+            "url": "URL",
+            "noWebhook": "Aucun webhook pour ce partenaire"
+          },
+          "tabs": {
+            "settings": "Paramètres",
+            "stores": "Boutiques",
+            "webhooks": "Webhooks"
+          }
+        },
+        "title": "Marketplace"
+      },
+      "tabletsPage": {
+        "applicationVersion": "Version",
+        "buttons": {
+          "identify": "Identifier",
+          "refresh": "Rafraîchir",
+          "refreshPosDevices": "Rafraîchir la liste",
+          "settings": "Configurer"
+        },
+        "description": "Gérez votre parc de tablettes",
+        "form": {
+          "authentication": {
+            "error": "La connexion avec {partnerSlug} n'a pas fonctionné. Vérifiez que vos identifiants sont corrects et réessayez.",
+            "password": "Mot de passe",
+            "title": "Authentification",
+            "username": "Nom d'utilisateur"
+          }
+        },
+        "identity": {
+          "connectionImpossible": "Je n'arrive pas à me connecter",
+          "connectionImpossibleMsg": "Je n'arrive pas à me connecter sur ma tablette",
+          "hide": "Masquer",
+          "mail": "Email :",
+          "password": "Mot de passe :",
+          "show": "Afficher",
+          "title": "Vous avez perdu vos identifiants tablette ?"
+        },
+        "lastCheckinAt": "Dernière visite",
+        "lastLoginAt": "Dernière connexion",
+        "lastPingAt": "Dernier ping",
+        "notHandledAuth": "Type d'authentification non gérée actuellement",
+        "notLinked": "Non associée",
+        "partnerSelector": {
+          "title": "Quelle intégration souhaitez-vous activer sur cette tablette ?"
+        },
+        "partnerStoreSelector": {
+          "title": "À quelle boutique {partner} souhaitez-vous relier cette tablette ?"
+        },
+        "posSelector": {
+          "current": "Elle est actuellement reliée à la caisse",
+          "loading": "Chargement des caisses en cours",
+          "noDeviceFound": "Aucune caisse trouvée. Vérifiez que l'intégration est bien activée et correctement configurée.",
+          "title": "À quelle caisse {partner} souhaitez-vous relier cette tablette ?"
+        },
+        "tablet": "Tablette",
+        "title": "Mes tablettes",
+        "waitingForUpdate": "En attente de mise à jour de la tablette"
+      }
+    },
+    "missedCalls": {
+      "emptyState": {
+        "button": "Configurer mon répondeur",
+        "description": "Convertissez vos appels manqués en chiffre d’affaires. À chaque appel que vous manquez, Pongo envoie un SMS à vos clients pour leur permettre de réserver ou commander en ligne",
+        "title": "Ne perdez plus un seul client"
+      },
+      "missedCallsAnalyticsPage": {
+        "crumbs": "Statistiques",
+        "description": "Convertissez vos appels manqués en chiffre d'affaires",
+        "error": "Une erreur est survenue lors du chargement de l'historique des appels manqués",
+        "filters": {
+          "calledAt": "Date de l'appel",
+          "converted": "A converti ?",
+          "description": "Rechercher des clients en fonction de vos critères",
+          "engagement": "Engagement",
+          "no": "Non",
+          "yes": "Oui"
+        },
+        "noResults": {
+          "description": "Réessayez en changeant vos critères de recherche",
+          "reset": "Réinitialiser mes critères",
+          "title": "Oups, pas de résultats !"
+        },
+        "results": {
+          "conversionRate": "Taux de conversion",
+          "customersConverted": "Nombre de clients rattrapés",
+          "missedCallsCount": "Nombre d'appels manqués"
+        },
+        "table": {
+          "converted": "Converti ?",
+          "customer": "Client",
+          "date": "Date",
+          "store": "Boutique"
+        },
+        "title": "Appels manqués"
+      },
+      "missedCallsDetailPage": {
+        "audioRecorder": {
+          "defaultName": "message-par-defaut",
+          "modal": {
+            "cancel": "Conserver",
+            "confirm": "Supprimer",
+            "text": "Vous vous apprêtez à supprimer votre message audio {recordingName}. Ce champ ne peut rester vide, il sera remplacé par un message audio par défaut",
+            "title": "Revenir au message par défaut"
+          },
+          "myMessage": "Mon message",
+          "timer": {
+            "stop": "Arrêter l'enregistrement",
+            "tip": "💡 Nous vous recommandons d'enregistrer un audio qui dure entre 10 et 20 secondes",
+            "title": "Vous êtes en train d'enregistrer"
+          }
+        },
+        "behavior": {
+          "description": "Définissez le comportement de votre module Appels",
+          "title": "Comportement"
+        },
+        "cancelModal": {
+          "description": "Êtes-vous sûr de vouloir quitter?",
+          "title": "Vous n'avez pas enregistré vos changements"
+        },
+        "create": "Créer mon numéro",
+        "description": "Convertissez vos appels manqués en chiffre d'affaires",
+        "errors": {
+          "invalidUrl": "Votre lien doit commencer par http:// ou https://",
+          "missingFields": "Veuillez renseigner tous les champs"
+        },
+        "message": {
+          "description": "Configurez le message vocal que vos clients entendront",
+          "form": {
+            "behavior": {
+              "description": "Définissez le comportement de votre module Appels",
+              "methods": {
+                "direct": {
+                  "description": "Envoyer directement un SMS sans sonnerie sur mon numéro",
+                  "title": "Sans sonnerie"
+                },
+                "indirect": {
+                  "description": "Rediriger l'appel vers votre numéro et envoyer un SMS si personne ne répond",
+                  "title": "Avec sonnerie"
+                }
+              },
+              "title": "Comportement"
+            },
+            "defaultSmsText": "Hey ! Toute l'équipe est occupée pour le moment… Mais pas de panique, tu peux prendre rdv depuis ce lien :",
+            "mandate": "Mandat",
+            "payment": "Paiement",
+            "phoneNumber": "Numéro de téléphone de votre boutique",
+            "smsPrice": "Prix du SMS",
+            "smsSent": {
+              "description": "Configurez le message que vous souhaitez envover à vos clients",
+              "linkDescription": "Insérez un lien dans votre SMS pour rediriger vos clients vers votre site",
+              "smsLink": "Lien dans le SMS",
+              "smsText": "Texte du SMS",
+              "title": "SMS envoyé"
+            },
+            "userData": {
+              "defaultDescriptionLandingPage": "On envoie des cadeaux par SMS à nos meilleurs clients. Ça vous tente ?",
+              "defaultTitleLandingPage": "Merci pour votre appel !",
+              "description": "Affichez une page de demande de collecte de consentement",
+              "hasOptin": "Activer la page intermédiaire de collecte de consentement",
+              "hasOptinDescription": "Une page s'affichera juste après que votre client ait cliqué sur le lien que vous avez inséré dans le SMS pour lui proposer de recevoir vos communications par SMS",
+              "landingPageDescription": "Texte de la page intermédiaire",
+              "landingPageTitle": "Titre de la page intermédiaire",
+              "title": "Donnée client"
+            },
+            "vocal": "Message vocal"
+          },
+          "title": "Message"
+        },
+        "preview": "Aperçu",
+        "title": "Appels manqués",
+        "notification": {
+          "success": "Configuration terminée, vos modifications peuvent prendre quelques instants avant d'être effectives"
+        }
+      },
+      "missedCallsSettingsPage": {
+        "crumbs": "Paramètres appels manqués",
+        "description": "Gérer vos appels manqués sur vos différentes boutiques",
+        "redirection": "Vous allez être redirigé vers le formulaire de création d'un numéro virtuel",
+        "title": "Appels manqués"
+      },
+      "missedCallsStores": {
+        "error": "Une erreur est survenue lors de la récupération des informations de votre boutique",
+        "label": {
+          "activate": "Activer",
+          "configure": "Configurer",
+          "disabled": "Désactivé",
+          "settings": "Éditer les paramètres",
+          "toConfigure": "Numéro à configurer"
+        },
+        "notConfigurated": "La gestion des appels manqués n’est pas activée pour cette boutique",
+        "toConfigure": "Configurez votre numéro en quelques clics",
+        "yourNumberIs": "Votre numéro virtuel est :"
+      }
+    },
+    "onboarding": {
+      "modal": {
+        "allYouNeedToKnow": "Tout ce que vous devez savoir en moins de 60 secondes💡",
+        "clickToListen": "Cliquez pour écouter",
+        "description": {
+          "first": "Ça y est tu as choisi tous tes supers-pouvoirs ⚡️",
+          "second": "Prêt.e à devenir un.e super héros ?",
+          "third": "Si oui, Batman a 2, 3 choses à te dire avant de commencer !"
+        },
+        "start": "Commencer",
+        "welcome": "Bienvenue chez Pongo 🎉"
+      },
+      "onboardingPage": {
+        "banner": {
+          "btnText": "Activer mes modules",
+          "secondText": " Paramétrez vos modules en quelques clics et inspirez-vous des meilleurs pour devenir un super héros 💪",
+          "text": "Encore quelques efforts à faire avant de profiter de tous vos super-pouvoirs !",
+          "title": "Vous n'avez pas terminé de paramétrer votre solution Pongo"
+        },
+        "buttons": {
+          "activateModule": "Activer ce module"
+        },
+        "goals": {
+          "booster": {
+            "btnText": "Créer ma roue",
+            "description": "Boostez vos avis et récoltez de la donnée de manière ludique en créant votre roue de la fortune",
+            "title": "Créez votre Booster"
+          },
+          "calls": {
+            "btnText": "Créer mon numéro",
+            "description": "Créez votre numéro magique qui rattrape tous les clients dont vous avez manqué l'appel",
+            "title": "Gérez vos appels manqués"
+          },
+          "loyalty": {
+            "btnText": "Créer mes récompenses",
+            "description": "Créez les récompenses de votre programme de fidélité et enrôlez vos premiers clients",
+            "title": "Créez votre programme de fidélité"
+          },
+          "order": {
+            "btnText": "Créer mon site en ligne",
+            "description": "Générez vos premières commandes en ligne en créant votre site en ligne",
+            "title": "Créez votre module de commande en ligne"
+          },
+          "review": {
+            "btnText": "Centraliser mes avis",
+            "description": "Facilitez-vous la vie en centralisant vos avis et en y répondant en 2 clics grâce aux modèles de réponses",
+            "title": "Centralisez vos avis clients"
+          },
+          "sms": {
+            "btnText": "Activer les SMS",
+            "description": "Envoyez des mots doux à vos clients et générez du chiffre d'affaires additionnel en 2 clics",
+            "title": "Boostez vos chiffres avec le SMS Marketing"
+          }
+        },
+        "merchant": {
+          "parameters": {
+            "btnText": "Éditez les paramètres",
+            "description": "Paramétrez les informations liées à votre boutique pour personnaliser votre expérience Pongo | Paramétrez les informations liées à vos boutiques pour personnaliser votre expérience Pongo",
+            "title": "Configurez les paramètres de votre boutique | Configurez les paramètres de vos boutiques"
+          },
+          "visualIdentity": {
+            "btnText": "Choisir mon logo et mes couleurs",
+            "description": "Définissez le logo et les couleurs de votre boutique pour que tous vos modules soient à l'image de votre marque",
+            "title": "Créez votre charte graphique"
+          }
+        },
+        "subtitle": "Vous êtes à quelques pas de transformer vos visites en relations",
+        "subtitles": {
+          "getStarted": "Lancez-vous dans le grand bain 🌊",
+          "goals": "Activez vos super-pouvoirs 💪",
+          "noAccessGoals": "Complétez votre panoplie ⚡",
+          "successStories": "Inspirez-vous des meilleurs 🔥"
+        },
+        "successStory": {
+          "columbus": {
+            "description": {
+              "first": "A généré <strong>80k€ de chiffre d'affaires</strong> grâce à une campagne SMS envoyée à toute sa base clients",
+              "second": "A gagné <strong>6000 followers</strong> grâce à une campagne SMS de boost Instagram"
+            },
+            "title": "Columbus Café"
+          },
+          "come": {
+            "description": {
+              "first": "A enrôlé <strong>2 500 clients en 2 semaines</strong> dans son programme de fidélité",
+              "second": "Convertit <strong>1 client sur 3</strong> à chaque SMS automatisé d'anniversaire"
+            },
+            "title": "Côme"
+          },
+          "cupkie": {
+            "description": {
+              "first": "Ils ont <strong>multiplié par 25</strong> leur nombre d'avis mensuel en 2 mois",
+              "second": "Au total, ils ont généré <strong>800 avis en 3 mois</strong> grâce à Pongo"
+            },
+            "title": "Cupkie"
+          },
+          "filsamaman": {
+            "description": {
+              "first": "En 3 mois, ils ont envoyé un SMS à <strong>12 500 clients</strong> dont ils ont manqué l'appel pour les faires réserver en ligne",
+              "second": "<strong>8 500 clients</strong> ont été \"rattrapés\" et ont réservé suite au SMS reçu"
+            },
+            "title": "Fils à Maman"
+          },
+          "magna": {
+            "description": {
+              "first": "Fait <strong>30% de son chiffre d'affaires</strong> annuel sur son module commande en ligne",
+              "second": "<strong>A doublé son chiffre d'affaires</strong> en activant la fonctionnalité \"Livraison\""
+            },
+            "title": "Magna"
+          },
+          "yabio": {
+            "description": {
+              "first": "<strong>A divisé par 3</strong> son temps de réponse depuis qu'il utilise le module d'avis Pongo",
+              "second": "Récompensé par Google, son nombre d'impressions sur Google a été <strong>multiplié par 2</strong>"
+            },
+            "title": "Yabio"
+          }
+        },
+        "taglines": {
+          "getStarted": "Personnalisez votre expérience Pongo en fonction de votre boutique",
+          "goals": "Commencez à utiliser les modules de votre abonnement",
+          "noAccessGoals": "Activez les modules additionnels pour profiter de toute la puissance de Pongo",
+          "successStories": "Comme des milliers de commerçants, ils ont eu des résultats fous grâce à Pongo"
+        },
+        "title": "Bonjour { merchantName } 👋",
+        "yourProgression": "Votre progression"
+      }
+    },
+    "ordering": {
+      "orderingPage": {
+        "askForDemo": "Demander une démo",
+        "createdBy": "Un module de commande en ligne tout-en-un proposé par",
+        "description": "Retrouvez votre indépendance, pour toujours. Créez votre module de commande en ligne avec Pongo et générez des ventes dès le premier jour grâce à notre suite d'outils marketing.",
+        "subtitle": "partout, tout le temps",
+        "title": "Générez des commandes en ligne"
+      }
+    },
+    "review": {
+      "emptyState": {
+        "button": "Connecter mes plateformes",
+        "description": "Vos avis clients seront tous centralisés ici afin que vous puissiez gérer votre réputation en ligne depuis un seul et même endroit",
+        "title": "Patience, vos avis arrivent bientôt !"
+      },
+      "reviewAnalyticsPage": {
+        "answerTimeAverageByMonth": {
+          "series": "Temps de réponse",
+          "title": "Temps de réponse moyen"
+        },
+        "cards": {
+          "averageNote": "Note actuelle",
+          "ratingAverage": "Note moyenne sur la période",
+          "totalOpinion": "Avis totaux sur la période"
+        },
+        "chart": {
+          "noResults": {
+            "description": "Nous n'avons trouvé aucune donnée pour la boutique sélectionnée",
+            "title": "Aucune donnée disponible"
+          }
+        },
+        "countReviewsByRatingByMonth": {
+          "description": "Avis totaux répartis par humeur",
+          "title": "Nombre d'avis"
+        },
+        "description": "Suivez toutes les statistiques de vos avis clients, rafraîchis chaque jour",
+        "noResults": {
+          "description": "Revenez plus tard pour consulter vos statistiques",
+          "title": "Aucun avis disponible"
+        },
+        "ratingAverageByMonth": {
+          "series": "Étoiles",
+          "title": "Note moyenne"
+        },
+        "reviewsDistributionByPlatform": {
+          "title": "Répartition des avis"
+        },
+        "reviewsNumber": "Nombre d'avis",
+        "title": "Statistiques",
+        "treatmentRate": {
+          "alert": {
+            "content": "Votre pourcentage d'avis traités est relativement bas. Nous vous conseillons d'y répondre au plus vite !",
+            "reply": "Répondre",
+            "title": "Attention !"
+          },
+          "description": "Pourcentage des avis traités par rapport aux avis totaux",
+          "legends": {
+            "opinionsTreated": "Avis traités ",
+            "opinionsUntreated": "Avis non traités "
+          },
+          "title": "Taux de traitement"
+        }
+      },
+      "reviewPage": {
+        "blocks": {
+          "reviewsItems": {
+            "title": "Mes avis {count}"
+          }
+        },
+        "cards": {
+          "average": "Note moyenne",
+          "getMoreReviews": "Obtenir + d'avis",
+          "new7days": "Avis sur les 7 derniers jours",
+          "reviews30days": "Avis sur les 30 derniers jours"
+        },
+        "charts": {
+          "legend": "Avis"
+        },
+        "description": "Suivez tous vos avis, rafraîchis chaque jour",
+        "filters": {
+          "answer": "Réponses",
+          "byDefault": "{platform} (par défaut)",
+          "description": "Filtrez vos avis clients",
+          "notes": "Notes",
+          "platforms": "Plateformes",
+          "recommend": "Recommandations"
+        },
+        "items": {
+          "addTemplate": "Ajouter un modèle de réponse",
+          "availableVariables": "Variables disponibles",
+          "buttons": {
+            "cancel": "Annuler",
+            "delete": "Supprimer",
+            "modify": "Modifier",
+            "myTemplates": "Mes modèles",
+            "publishReply": "Publier la réponse",
+            "reply": "Répondre"
+          },
+          "confirm": {
+            "cancel": "Annuler",
+            "confirm": "Confirmer",
+            "text": "Êtes-vous sûr(e) de vouloir supprimer cette réponse ?",
+            "title": "Suppression d'une réponse"
+          },
+          "date": "Le {date} à {time}",
+          "hideAvailableVariables": "Masquer les variables disponibles",
+          "noRecommend": "ne recommande pas",
+          "noReview": "Pas d'avis laissé",
+          "recommend": "recommande",
+          "replied": "Répondu",
+          "templates": {
+            "sorry": "Désolé 🥺",
+            "thanks": "Merci 😘",
+            "useTemplate": "Utiliser un modèle de réponse"
+          },
+          "unreplied": "Non répondu",
+          "yourReply": "Votre réponse"
+        },
+        "message": {
+          "variableDescription": {
+            "afterPhrase": "votre réponse sera",
+            "afterVariable": "étoiles",
+            "end": "Merci pour vos 5 étoiles",
+            "intro": "Par exemple, si vous définissez le texte",
+            "start": "Merci pour vos"
+          },
+          "variableInfo": "Vous pouvez insérer ces variables dans votre message, elles seront automatiquement remplacées."
+        },
+        "noResults": {
+          "description": "Il semble que l'avis que vous recherchez ne soit pas ici, veuillez essayer en changeant les filtres",
+          "facebook": "Facebook ne propose plus de note, la plateforme s’est tournée vers un système de recommandation",
+          "title": "Essayez à nouveau !"
+        },
+        "notifications": {
+          "error": {
+            "addTemplate": "Nous ne pouvons pas créer le modèle. Veuillez vérifier que le titre n'existe pas déjà.",
+            "addTemplateToFavorite": "Nous ne pouvons pas ajouter ce modèle à vos favoris. Veuillez réessayer s'il vous plaît.",
+            "content": "Vous devez entrer le contenu de votre modèle",
+            "deleteTemplate": "Nous ne pouvons pas supprimer le modèle. Veuillez réessayer s'il vous plaît.",
+            "emoji": "Vous devez sélectionner un emoji",
+            "removeTemplateFromFavorite": "Nous ne pouvons pas retirer ce modèle à vos favoris. Veuillez réessayer s'il vous plaît.",
+            "title": "Vous devez renseigner un titre",
+            "updateTemplate": "Nous ne pouvons pas modifier le modèle. Veuillez vérifier que le titre n'existe pas déjà."
+          },
+          "success": {
+            "addTemplate": "Votre modèle a bien été ajouté",
+            "addTemplateToFavorite": "Votre modèle a été ajouté à vos favoris",
+            "deleteTemplate": "Votre modèle a bien été supprimé",
+            "removeTemplateFromFavorite": "Votre modèle a été supprimé de vos favoris",
+            "updateTemplate": "Votre modèle a bien été modifié"
+          }
+        },
+        "promotionalBlock": {
+          "description": "Pongo fournit en temps réel toutes les données relatives à vos avis client afin que vous puissiez répondre au mieux à leurs attentes",
+          "label": "Vos stats en temps-réel",
+          "seeStats": "Voir mes stats",
+          "title": "Analysez vos statistiques et optimisez la gestion de vos avis client 👌"
+        },
+        "templates": {
+          "confirm": {
+            "cancel": "Annuler",
+            "confirm": "Confirmer",
+            "text": "Êtes-vous sûr(e) de vouloir supprimer ce modèle ?",
+            "title": "Confirmation de suppression"
+          },
+          "tooltip": {
+            "addToFavorites": "Ajouter aux favoris",
+            "cantAddToFavorites": "Vous ne pouvez pas ajouter plus de {number} modèles en favori",
+            "removeFromFavorites": "Supprimer des favoris"
+          }
+        },
+        "title": "Mes avis clients",
+        "variables": {
+          "fullName": "Prénom et nom de la personne ayant posté l'avis",
+          "starNumber": "Nombre d'étoiles",
+          "storeName": "Nom de la boutique concernée"
+        }
+      },
+      "reviewReplyForm": {
+        "error": {
+          "deletedReply": "Votre réponse n'a pas pu être supprimée. Veuillez réessayer s'il vous plaît.",
+          "modifiedReply": "Nous ne pouvons pas modifier votre réponse. Veuillez réessayer s'il vous plaît.",
+          "replied": "Nous ne pouvons pas poster votre réponse. Veuillez réessayer s'il vous plaît."
+        },
+        "errors": {
+          "responseRequired": "Votre réponse est obligatoire"
+        },
+        "success": {
+          "deletedReply": "Votre réponse a été supprimée",
+          "modifiedReply": "Votre réponse a été modifiée",
+          "replied": "Votre réponse a été postée"
+        }
+      },
+      "reviewSettingsPage": {
+        "connected": "Connecté",
+        "description": "Connectez vos plateformes et centralisez vos avis",
+        "disconnected": "Déconnecté",
+        "error": {
+          "incorrectUrl": "L'url saisie est incorrecte"
+        },
+        "facebook": {
+          "label": "URL de votre page Facebook",
+          "subtitle": "Indiquer l'URL de votre page Facebook",
+          "title": "Connecter votre page Facebook"
+        },
+        "google": {
+          "label": "Votre page Google",
+          "subtitle": "Indiquer votre page Google",
+          "title": "Connecter votre page Google"
+        },
+        "setup": "Connecter",
+        "tab": {
+          "platforms": "Plateformes",
+          "templates": "Modèles"
+        },
+        "templates": {
+          "buttons": {
+            "addTemplate": "Ajouter un modèle",
+            "allMyTemplates": "Tous mes modèles",
+            "cancel": "Annuler",
+            "delete": "Supprimer",
+            "modify": "Modifier",
+            "myFavorites": "Mes favoris",
+            "save": "Enregistrer"
+          },
+          "deleteFilter": "Effacer le filtre",
+          "description": "Répondez à vos avis plus rapidement en utilisant des modèles",
+          "emptyState": {
+            "all": {
+              "description": "Vous n'avez pas encore de modèle disponible",
+              "title": "Aucun modèle"
+            },
+            "favorite": {
+              "description": "Vous n'avez pas encore de modèle en favori",
+              "title": "Aucun modèle en favori"
+            },
+            "mood": {
+              "negative": "Aucun modèle de type négatif",
+              "neutral": "Aucun modèle de type neutre",
+              "positive": "Aucun modèle de type positif"
+            }
+          },
+          "filteredInfo": "Modèles de type {templateType}",
+          "form": {
+            "content": {
+              "label": "Contenu",
+              "placeholder": "Entrez le contenu de votre modèle"
+            },
+            "editAdd": "Modifier le modèle {template}",
+            "mood": {
+              "negative": "Négatif",
+              "neutral": "Neutre",
+              "positive": "Positif",
+              "title": "Nature de l'avis"
+            },
+            "title": {
+              "label": "Titre",
+              "placeholder": "Entrez le titre de votre modèle"
+            },
+            "titleAdd": "Ajouter un modèle"
+          },
+          "noFilter": "Aucun filtre",
+          "sortMyTemplates": "Trier mes modèles",
+          "title": "Gérez vos modèles de réponse"
+        },
+        "title": "Paramétrer mes avis clients",
+        "tripadvisor": {
+          "label": "URL de votre page Tripadvisor",
+          "subtitle": "Indiquer l'URL de votre page Tripadvisor",
+          "title": "Connecter votre page TripAdvisor"
+        }
+      }
+    },
+    "rewards": {
+      "emptyState": {
+        "button": "Créer une récompense",
+        "description": "L'ensemble des récompenses attribuées à vos clients est centralisé ici",
+        "title": "Vous n'avez donné aucune récompense sur la période sélectionnée"
+      }
+    },
+    "settings": {
+      "accountPage": {
+        "description": "Accédez à vos factures",
+        "emptyState": {
+          "description": "Retrouvez ici vos factures pour vos frais d'installation, vos abonnements et vos SMS",
+          "title": "Patience, votre première facture arrive bientôt !"
+        },
+        "info": {
+          "initiated": "Prélèvement initié - Nous avons créé votre facture",
+          "title": "Retrouvez ici vos factures pour vos frais d'installation, vos abonnements et vos SMS.",
+          "transmitted": "Prélèvement transmis - Nous avons transmis le prélèvement à notre partenaire GoCardless"
+        },
+        "mandates": {
+          "buttons": {
+            "goToForm": "Accéder au formulaire"
+          },
+          "description": "Gérez ici vos mandats de prélèvement",
+          "error": {
+            "contactPongo": "Un problème est survenu avec notre partenaire GoCardless, merci de nous contacter si le problème persiste",
+            "title": "Un problème est survenu avec notre partenaire GoCardless, merci de vous rapprocher de { adminName } si le problème persiste"
+          },
+          "form": {
+            "mandateTypes": {
+              "merchant": {
+                "description": "Le compte pourra être débité pour toutes les boutiques (si vous souhaitez par exemple prendre en charge une partie des frais d'abonnement, ou une campagne SMS)",
+                "title": "Global"
+              },
+              "store": {
+                "description": "Le compte ne pourra être débité que pour la boutique spécifiée",
+                "title": "Boutique"
+              }
+            },
+            "selectStore": "Veuillez sélectionner la boutique à laquelle affecter le nouveau mandat de prélèvement",
+            "title": "Ajouter un mandat de prélèvement"
+          },
+          "help": "Vous serez invité à renseigner vos coordonnées bancaires sur la page de notre partenaire GoCardless. Une fois les informations saisies, vous retrouverez votre nouveau mandat de prélèvement sur votre compte Pongo.",
+          "redirectingIn": "Ouverture du formulaire de saisie du mandat de prélèvement dans",
+          "result": {
+            "error": {
+              "description": "Notre prestataire GoCardless a retourné une erreur concernant ce prélèvement.",
+              "redirect_flow_incomplete": "La demande est incomplète, veuillez renseigner le formulaire.",
+              "resource_expired": "La demande est expirée.",
+              "resource_not_found": "Le lien est incorrect, veuillez réessayer.",
+              "title": "Une erreur est survenue lors de l'ajout du mandat"
+            },
+            "success": {
+              "description": "Notre prestataire GoCardless apparaîtra sur votre relevé bancaire lorsque les paiements seront encaissés dans le cadre de ce prélèvement.",
+              "onboarding": "C'est tout bon, vous pouvez maintenant commencer à profiter des services Pongo !",
+              "title": "Mandat de prélèvement mis en place avec succès"
+            }
+          },
+          "status": {
+            "active": "Le mandat a été activé par votre banque",
+            "cancelled": "Le mandat a été annulé",
+            "consumed": "Le mandat a été utilisé et ne peut plus l'être",
+            "expired": "Le mandat a expiré",
+            "failed": "Le mandat n'a pas pu être créé",
+            "pending_customer_approval": "Vous n'avez pas encore signé le mandat",
+            "pending_submission": "Le mandat n'a pas encore été transmis à votre banque",
+            "submitted": "Le mandat a été transmis à votre banque mais n'a toujours pas été traité"
+          },
+          "title": "Mandats de prélèvement"
+        },
+        "payments": {
+          "game-contest": {
+            "title": "Jeux concours"
+          },
+          "looping": {
+            "title": "Appels manqués"
+          },
+          "loyalty": {
+            "title": "Programme de fidélité"
+          },
+          "missed-calls": {
+            "title": "Appels manqués"
+          },
+          "online-ordering": {
+            "title": "Commande en ligne"
+          },
+          "orModule": "Ou",
+          "pack-sms-one-shot": {
+            "title": "Pack SMS ponctuel"
+          },
+          "pack-sms": {
+            "title": "Pack SMS"
+          },
+          "pongo-suite": {
+            "title": "Pongo suite"
+          },
+          "reviews": {
+            "title": "Avis clients"
+          },
+          "setup": {
+            "description": "Ces frais couvrent l'envoi de la tablette et des accessoires.",
+            "title": "Frais d'installation"
+          },
+          "sms": {
+            "autopilots": {
+              "title": "Marketing automatisé"
+            },
+            "campaigns": {
+              "title": "Campagnes SMS"
+            },
+            "missedCalls": {
+              "title": "Appels manqués"
+            },
+            "transactional": {
+              "title": "SMS transactionnels"
+            }
+          },
+          "smsPack": {
+            "expirationDate": "Expiration du pack",
+            "includedInLoyaltyProducts": "inclus dans l'abonnement Fidélité",
+            "includedQuantity": "SMS inclus"
+          },
+          "status": {
+            "only_in_pongo_database": "Prélèvement initié",
+            "paid_out": "Payé",
+            "pending_submission": "Prélèvement transmis"
+          },
+          "types": {
+            "pack-sms-one-shot": "Pack SMS ponctuel",
+            "setup": "Frais d'installation",
+            "sms": "SMS",
+            "subscription": "Abonnements"
+          }
+        },
+        "tables": {
+          "thead": {
+            "download": "PDF",
+            "paidMonth": "Mois",
+            "paymentReference": "Référence",
+            "status": "Statut",
+            "totalPriceWithoutVat": "Prix (HT)",
+            "totalVat": "TVA",
+            "type": "Type"
+          }
+        },
+        "tabs": {
+          "billing": "Factures"
+        },
+        "title": "Mes factures"
+      },
+      "merchantForm": {
+        "button": {
+          "save": "Enregistrer les modifications"
+        },
+        "color": {
+          "logo": "Logo",
+          "subtitle": "Couleurs",
+          "title": "Identité graphique"
+        },
+        "config": {
+          "bonusPoints": "Bonus de points (1ère visite)",
+          "checkinPoints": "Points par visites",
+          "delayBetweenCheckins": "Délai minimum pour obtenir des points entre deux visites (en heures)",
+          "hasExternalCustomers": "Affichage du bouton ‘Récupérer mes points’ pour les clients importés",
+          "hasQrCodeOption": "Génération d'un QRCode lors du gain d'une récompense ?",
+          "hasRewardInterface": "Interface de suivi des points",
+          "hasRewardInterfaceTooltip": "En activant cette option, vos clients recevront un lien pour suivre et dépenser leurs points, dès qu'ils auront gagné leur première récompense",
+          "hasSmsRewardOption": "Envoi d'un SMS lors du gain d'une récompense ?",
+          "logo": "Logo",
+          "rewardTimeout": "Délai de déconnexion (en secondes)",
+          "title": "Paramètres"
+        },
+        "error": {
+          "resolve": "Veuillez résoudre les erreurs",
+          "size": "Veuillez vérifier la taille des images que vous avez téléchargé"
+        },
+        "frequency": {
+          "0": "Nouveau",
+          "1": "VIP",
+          "2": "Ponctuel",
+          "3": "À risque",
+          "fields": {
+            "averageMonthlyCheckin": "Checkin moyen par mois",
+            "checkinCount": "Nombre total de checkins",
+            "daysSinceLastCheckin": "Jours depuis le dernier checkin",
+            "daysSinceRegister": "Jours depuis l'inscription"
+          },
+          "operator": {
+            "<": "strictement inférieur à",
+            "=": "égal à",
+            ">": "strictement supérieur à"
+          },
+          "title": "Typologies clients"
+        },
+        "image": {
+          "drag": "Glisser et déposer votre fichier pour télécharger ou",
+          "replace": "Remplacer le fichier",
+          "select": "Sélectionner un fichier",
+          "title": "Images"
+        },
+        "infos": {
+          "errorPunctuation": "Les caractères spéciaux ne sont pas autorisés",
+          "name": "Nom",
+          "smsName": "Nom pour les SMS (3 à 11 caractères sans accents)",
+          "title": "Informations générales"
+        },
+        "navigation": {
+          "description": "Modifier vos informations et paramètres",
+          "info": "Infos commerçant"
+        },
+        "notifications": {
+          "update": {
+            "error": "Un problème est survenu lors de l'enregistrement du formulaire. Veuillez vérifier les informations renseignées.",
+            "success": "Vos paramètres ont été mis à jour",
+            "forbidden": "Vous n'avez pas les permissions pour effectuer cette modification, veuillez contacter votre administrateur"
+          },
+          "updateMerchantColors": {
+            "error": "Un problème est survenu lors de l'enregistrement de vos couleurs."
+          },
+          "updateMerchantConfig": {
+            "error": "Un problème est survenu lors de l'enregistrement de votre configuration."
+          },
+          "updateMerchantMedia": {
+            "error": "Un problème est survenu lors de l'enregistrement de vos images."
+          },
+          "updateMerchantTexts": {
+            "error": "Un problème est survenu lors de l'enregistrement de vos textes."
+          }
+        },
+        "text": {
+          "formal": "Utiliser le vouvoiement dans les textes suivants",
+          "homeTextsFields": {
+            "homeButton": {
+              "label": "Bouton (aucune intégration)",
+              "value": "Let's go!",
+              "valueFormal": "Let's go!"
+            },
+            "homeButtonWithActiveIntegration": {
+              "label": "Bouton (avec intégration)",
+              "value": "Consulter mes points",
+              "valueFormal": "Consulter mes points"
+            },
+            "homeSubtitle": {
+              "label": "Sous-titre",
+              "value": "Ça se passe juste ici 👇",
+              "valueFormal": "Ça se passe juste ici 👇"
+            },
+            "homeTitle": {
+              "label": "Titre",
+              "value": "On a un cadeau pour toi 🎁",
+              "valueFormal": "On a un cadeau pour vous 🎁"
+            },
+            "title": "Accueil"
+          },
+          "loginTextsFields": {
+            "loginSubtitle": {
+              "label": "Sous-titre",
+              "value": "Tape juste ton numéro de téléphone",
+              "valueFormal": "Tapez juste votre numéro de téléphone"
+            },
+            "loginTitle": {
+              "label": "Titre",
+              "value": "Ravi de te voir !",
+              "valueFormal": "Ravi de vous voir !"
+            },
+            "title": "Saisie du numéro"
+          },
+          "loyalty": "récompense ta fidélité",
+          "loyaltyFormal": "récompense votre fidélité",
+          "pointsTextsFields": {
+            "pointsSubtitle": {
+              "label": "Sous-titre",
+              "value": "Parce qu'on t'adore !",
+              "valueFormal": "Parce qu'on vous adore !"
+            },
+            "pointsTitle": {
+              "label": "Titre",
+              "value": "BOOM !",
+              "valueFormal": "BOOM !"
+            },
+            "title": "Gain de points"
+          },
+          "questionsTextsFields": {
+            "enrichmentQuestionBirthday": {
+              "label": "Question anniversaire client",
+              "value": "Ça te dit de recevoir un cadeau le jour de ton anniversaire ? Pour cela, nous avons besoin de ta date de naissance ^^",
+              "valueFormal": "Ça vous dit de recevoir un cadeau le jour de votre anniversaire ? Pour cela, nous avons besoin de votre date de naissance"
+            },
+            "enrichmentQuestionEmail": {
+              "label": "Question email client",
+              "value": "Est-ce que ça te dirait d’en savoir plus sur notre univers, nos produits et même recevoir des offres spéciales? Pour cela, c’est hyper simple, on a juste besoin de ton email.",
+              "valueFormal": "Est-ce que ça vous dirait d’en savoir plus sur notre univers, nos produits et même recevoir des offres spéciales? Pour cela, c’est très simple, on a juste besoin de votre email."
+            },
+            "enrichmentQuestionFirstname": {
+              "label": "Question prénom client",
+              "value": "Et toi, quel est ton prénom ?",
+              "valueFormal": "Et vous, quel est votre prénom ?"
+            },
+            "enrichmentQuestionGender": {
+              "label": "Question genre client",
+              "value": "Dis-moi, on ne t'a jamais posé la question mais, tu es un homme ou une femme ?",
+              "valueFormal": "Dites-moi, on ne vous a jamais posé la question mais, vous êtes un homme ou une femme ?"
+            },
+            "questionsAnswered": {
+              "label": "Répondue",
+              "value": "On ne te dérange pas plus longtemps, et en attendant...",
+              "valueFormal": "On ne vous dérange pas plus longtemps, et en attendant..."
+            },
+            "questionsIntro": {
+              "label": "Intro (Client existant)",
+              "value": "Content de te revoir !",
+              "valueFormal": "Content de vous revoir !"
+            },
+            "questionsIntroNew": {
+              "label": "Intro (Nouveau client)",
+              "value": "Hello, bienvenue chez nous ! Pour te servir au mieux, on fait connaissance avec tous nos clients.",
+              "valueFormal": "Hello, bienvenue chez nous ! Pour vous servir au mieux, on fait connaissance avec tous nos clients."
+            },
+            "questionsNotAnswered": {
+              "label": "Non répondue",
+              "value": "Pas de souci, on comprend ! En attendant...",
+              "valueFormal": "Pas de souci, nous comprenons ! En attendant..."
+            },
+            "questionsOptin": {
+              "label": "Optin",
+              "value": "Hello, bienvenue chez nous ! Pour récompenser nos meilleurs clients, on leur envoie des cadeaux et des promos de temps en temps, ça te dit ?",
+              "valueFormal": "Hello, bienvenue chez nous ! Pour récompenser nos meilleurs clients, on leur envoie des cadeaux et des promos de temps en temps, ça vous dit ?"
+            },
+            "questionsOptinNo": {
+              "label": "Non aux SMS",
+              "value": "Pas de souci, on comprend ! En attendant...",
+              "valueFormal": "Pas de souci, nous comprenons ! En attendant..."
+            },
+            "questionsOptinYes": {
+              "label": "Oui aux SMS",
+              "value": "Génial ! Promis on ne t'oubliera pas. En attendant...",
+              "valueFormal": "Génial ! Promis on ne vous oubliera pas. En attendant..."
+            },
+            "title": "Questions"
+          },
+          "rewardsTextsFields": {
+            "rewardsButton": {
+              "label": "Boutons",
+              "value": "Obtenir",
+              "valueFormal": "Obtenir"
+            },
+            "rewardsPopupConfirmSubtitle": {
+              "label": "Sous-titre pop-up",
+              "value1": "Es-tu sûr(e) de vouloir dépenser",
+              "value2": "points pour obtenir",
+              "valueFormal1": "Êtes-vous sûr(e) de vouloir dépenser"
+            },
+            "rewardsPopupConfirmTitle": {
+              "label": "Titre pop-up",
+              "value": "Yeah !",
+              "valueFormal": "Super !"
+            },
+            "rewardsPopupForbiddenTitle": {
+              "label": "Titre pop-up (manque points)",
+              "value": "Arf !",
+              "valueFormal": "Mince !"
+            },
+            "rewardsSubtitle": {
+              "label": "Sous-titre",
+              "value": "Bienvenue chez toi",
+              "valueFormal": "Bienvenue chez vous"
+            },
+            "rewardsSubtitleNew": {
+              "label": "Sous-titre nouvel inscrit",
+              "value": "Bienvenue chez toi",
+              "valueFormal": "Bienvenue chez vous"
+            },
+            "rewardsText": {
+              "label": "Préfixe points",
+              "value": "Tu disposes de",
+              "valueFormal": "Vous disposez de"
+            },
+            "rewardsTitle": {
+              "label": "Titre",
+              "value": "Hello !",
+              "valueFormal": "Hello !"
+            },
+            "title": "Récompenses"
+          },
+          "rewardWonTextsFields": {
+            "congratsSms": {
+              "label": "Texte du SMS (si SMS activé)",
+              "value": "BOOM ! Montre ce SMS au vendeur pour récupérer",
+              "valueFormal": "BOOM ! Montrez ce SMS au vendeur pour récupérer"
+            },
+            "congratsSubtitle": {
+              "label": "Sous-titre",
+              "value": "Fais pivoter l'écran vers le vendeur pour qu'il te régale",
+              "valueFormal": "Faites pivoter l'écran vers le vendeur pour qu'il vous régale"
+            },
+            "congratsSubtitleSms": {
+              "label": "Sous-titre (si SMS activé)",
+              "value": "Tu vas recevoir un SMS. Montre-le au vendeur pour qu'il te régale !",
+              "valueFormal": "Vous allez recevoir un SMS. Montrez-le au vendeur pour qu'il vous régale !"
+            },
+            "congratsTitle": {
+              "label": "Titre",
+              "value": "C'est parti !",
+              "valueFormal": "C'est parti !"
+            },
+            "title": "Récompense gagnée",
+            "voucherSms": {
+              "label": "Texte du SMS d'une récompense avec promo",
+              "value": "Bravo, tu as gagné { reward } ! Utilise ce code promo sur notre site pour en profiter lors de ta prochaine commande : { reward }",
+              "valueFormal": "Bravo, vous avez gagné { reward } ! Utilisez ce code promo sur notre site pour en profiter lors de votre prochaine commande : { reward }"
+            }
+          },
+          "title": "Textes"
+        }
+      },
+      "storeDetailPage": {
+        "config": {
+          "averageTicketAmount": {
+            "description": "Le panier moyen permet d'estimer le CA généré par les campagnes SMS. Par défaut : {default}€",
+            "title": "Panier moyen"
+          },
+          "dailyTicketCount": {
+            "description": "Le nombre de tickets par jour permet d'estimer l'impact de Pongo sur votre boutique",
+            "title": "Nombre de tickets par jour"
+          },
+          "description": "Définissez les paramètres généraux de cette boutique",
+          "title": "Paramètres généraux"
+        },
+        "description": "Gérez la configuration de votre boutique",
+        "notifications": {
+          "update": {
+            "error": "Une erreur est survenue lors de la mise à jour des paramètres",
+            "success": "Vos paramètres ont été mis à jour",
+            "inProgress": "Votre page a bien été prise en compte ! Nous faisons au plus vite pour remonter vos avis dans votre backoffice. Cette opération peut prendre quelques minutes"
+          }
+        },
+        "sms": {
+          "description": "Définissez les paramètres des SMS envoyés par cette boutique",
+          "sender": {
+            "description": "Il s'agit de l'expéditeur affiché dans les SMS envoyés par cette boutique. S'il n'est pas défini, l'expéditeur utilisé sera",
+            "title": "Expéditeur SMS"
+          },
+          "title": "Campagnes SMS"
+        },
+        "urls": {
+          "button": {
+            "add": {
+              "likable": "Ajouter un lien d'abonnement",
+              "reviewable": "Ajouter un lien d'avis"
+            }
+          },
+          "description": "Gérez les liens de votre boutique, pour pouvoir booster vos avis ou augmenter vos abonnés grâce à Pongo",
+          "facebook": {
+            "description": "Indiquez l'adresse de votre page Facebook",
+            "title": "Facebook"
+          },
+          "googlePlaceId": {
+            "askWrongOne": "Ce n’est pas la bonne fiche ?",
+            "changeIt": "Modifiez-la !",
+            "description": "Permet à Pongo de récupérer les informations de votre boutique sur Google",
+            "field": {
+              "placeholder": "Rechercher votre boutique ..."
+            },
+            "test": "Tester",
+            "title": "Google",
+            "yourLinkIsConfigured": "Fiche de la boutique renseignée"
+          },
+          "instagram": {
+            "description": "Indiquez l'adresse de votre page Instagram",
+            "title": "Instagram"
+          },
+          "table": {
+            "likable": {
+              "noResult": "Vous n'avez aucun lien d'abonnement configuré"
+            },
+            "reviewable": {
+              "noResult": "Vous n'avez aucun lien d'avis configuré"
+            }
+          },
+          "title": "Pages de votre boutique",
+          "types": {
+            "likable": "Vos liens d'abonnements",
+            "reviewable": "Vos liens d'avis"
+          }
+        }
+      },
+      "storesPage": {
+        "description": "Configurez les informations de vos différentes boutiques",
+        "title": "Configuration de mes boutiques"
+      },
+      "usersPage": {
+        "description": "Gérer les rôles et permissions de vos utilisateurs",
+        "stores": "{count} boutiques",
+        "tables": {
+          "thead": {
+            "email": "Email",
+            "name": "Nom",
+            "role": "Rôle",
+            "store": "Boutiques"
+          }
+        },
+        "tabs": {
+          "roles": "Rôles",
+          "users": "Utilisateurs"
+        },
+        "title": "Vos utilisateurs"
+      },
+      "visualIdentity": {
+        "backgroundsColor": "Couleur des fonds",
+        "buttons": {
+          "save": "Enregistrer les modifications"
+        },
+        "buttonsColor": "Couleur des boutons",
+        "description": "Gérer ma charte graphique",
+        "emailLogo": {
+          "tip": "Affiché en haut de chaque email que vous envoyez à vos clients (par exemple, email de gain de points après une commande en ligne)",
+          "title": "Logo Email"
+        },
+        "form": {
+          "colorError": "Vos couleurs n'ont pas pu être enregistrées",
+          "emailLogoSizeError": "Attention, la taille du logo Email n'est pas correcte.",
+          "logoSizeError": "Attention, la taille du logo n'est pas correcte.",
+          "mediaError": "Vos logos n'ont pas pu être enregistrés",
+          "success": "Votre charte graphique a été mise à jour"
+        },
+        "logo": {
+          "tip": "Affiché sur vos jeux concours et votre programme de fidélité",
+          "title": "Logo"
+        },
+        "panel": {
+          "description": "Nous l'utiliserons pour personnaliser tous vos modules : de votre programme de fidélité à vos jeux concours",
+          "title": "Votre image de marque"
+        },
+        "primaryColor": {
+          "tip": "Utilisée pour personnaliser l'apparence de vos différents modules",
+          "title": "Couleur primaire"
+        },
+        "secondaryColor": {
+          "tip": "Utilisée pour personnaliser l'apparence de vos différents modules",
+          "title": "Couleur secondaire"
+        },
+        "textsColor": "Couleur des textes",
+        "title": "Ma charte graphique"
+      }
+    },
+    "blocker": {
+      "button": "Configurer",
+      "descriptions": {
+        "survey": "Pour avoir accès aux sondages il vous faut configurer votre programme de fidélité sur tablette",
+        "contests": "Pour utiliser Jeu concours, vous devez configurer votre charte graphique"
+      }
+    },
+    "survey": {
+      "surveyPage": {
+        "blocks": {
+          "actives": {
+            "noSurveys": "Vous n'avez aucun sondage actif.",
+            "title": "Sondages actifs"
+          },
+          "completed": {
+            "noSurveys": "Vous n'avez terminé aucun sondage pour le moment.",
+            "title": "Sondages terminés"
+          },
+          "inactives": {
+            "noSurveys": "Vous n'avez aucun sondage inactif.\t",
+            "title": "Sondages non actifs"
+          }
+        },
+        "buttons": {
+          "activate": "Activer",
+          "disable": "Désactiver",
+          "edit": "Modifier",
+          "seeDetail": "Voir les résultats"
+        },
+        "charts": {
+          "answerers": "répondants"
+        },
+        "confirm": {
+          "activate": {
+            "description": "Vous pourrez le désactiver à tout moment si vous le souhaitez.",
+            "success": "Votre sondage a été activé avec succès",
+            "text": "Êtes-vous sûr(e) de vouloir activer ce sondage ?"
+          },
+          "disable": {
+            "description": "La question ne sera plus posée à vos clients. Vous pouvez réactiver le sondage par la suite.",
+            "success": "Votre sondage a été désactivé avec succès",
+            "text": "Êtes-vous sûr(e) de vouloir arrêter ce sondage ?"
+          }
+        },
+        "cta": {
+          "create": "Créer un sondage"
+        },
+        "description": "Enrichissez votre connaissance client",
+        "items": {
+          "stats": {
+            "answerers": "Répondants"
+          },
+          "status": {
+            "disabled": "Désactivé",
+            "enabled": "Activé",
+            "terminated": "Terminé"
+          },
+          "title": "Sondage lancé le {date}"
+        },
+        "title": "Mes sondages"
+      },
+      "surveyCreatePage": {
+        "buttons": {
+          "addChoice": "Ajouter une réponse",
+          "removeLastChoice": "Supprimer la dernière réponse",
+          "save": "Créer le sondage"
+        },
+        "cards": {
+          "answer": "Réponse",
+          "answers": "Réponses",
+          "answersDescription": "Vous pouvez configurer entre 2 et 5 réponses",
+          "date": "Date de lancement",
+          "question": "Votre question",
+          "stores": "Boutiques",
+          "name": "Nom du sondage"
+        },
+        "modal": {
+          "creationComplete": {
+            "linkText": "Retour à la liste des sondages",
+            "text": "Votre sondage a été créé avec succès.",
+            "title": "Félicitations !"
+          }
+        },
+        "notifications": {
+          "create": {
+            "answers": {
+              "maximum": "Vous ne pouvez pas définir plus de 5 réponses",
+              "minimum": "Vous devez définir au moins 2 réponses",
+              "notEmpty": "Vous devez définir un texte pour chaque réponse"
+            },
+            "error": "Une erreur est survenue lors de la création du sondage",
+            "noDateSelected": "Vous devez définir une date de lancement",
+            "question": "Vous devez définir la question du sondage",
+            "stores": "Vous devez sélectionner au moins une boutique"
+          }
+        },
+        "preview": {
+          "tablet": {
+            "intro": "Juste une petite question",
+            "skip": "Je ne souhaite pas répondre"
+          },
+          "title": "Aperçu"
+        },
+        "title": "Créer un nouveau sondage",
+        "titleWithTemplate": "Personnalisez un nouveau sondage",
+        "labels": {
+          "template": "Modèle"
+        }
+      },
+      "surveyDetailPage": {
+        "cards": {
+          "recipients": "Clients interrogés",
+          "respondents": "Répondants",
+          "responseRate": "Taux de réponse"
+        },
+        "description": "Créé le {date} à {time}",
+        "tables": {
+          "thead": {
+            "answer": "Réponse",
+            "customer": "Client",
+            "date": "Date de réponse"
+          }
+        },
+        "title": "Détail d'un sondage"
+      },
+      "surveyUpdatePage": {
+        "buttons": {
+          "save": "Modifier"
+        },
+        "modal": {
+          "confirm": {
+            "cancel": "Annuler",
+            "linkText": "Confirmer",
+            "text": "En modifiant ce sondage, vous allez perdre l’accès à toutes les réponses associées à un choix supprimé. Voulez-vous confirmer ?",
+            "title": "Êtes-vous sûr(e) ?"
+          },
+          "creationComplete": {
+            "text": "Votre sondage a été modifié avec succès"
+          }
+        },
+        "notifications": {
+          "create": {
+            "error": "Une erreur est survenue lors de la modification de votre sondage"
+          }
+        },
+        "title": "Modifier un sondage"
+      }
+    },
+    "survey-question": {
+      "emptyState": {
+        "button": "Créer un sondage",
+        "description": "Les sondages vous permettent d'obtenir facilement des réponses pour ainsi prendre de meilleures décisions pour votre business.",
+        "startFromZero": "Ou commence à partir de zero :"
+      },
+      "blocker": {
+        "button": "Configurer",
+        "descriptions": {
+          "reward": "Pour avoir accès aux sondages il vous faut configurer votre programme de fidélité sur tablette"
+        }
+      },
+      "modal": {
+        "title": "Sondage",
+        "buttonTitle": "Utiliser ce modèle",
+        "template": "Ou utiliser un modèle"
+      },
+      "templates": {
+        "tips": "Créer un sondage en 2 clics en utilisant un de nos modèles :",
+        "seeAllTemplates": "Voir tous les modèles",
+        "cards": {
+          "button": "Utiliser"
+        }
+      }
+    }
+  },
+  "sidebar": {
+    "home": "Accueil",
+    "autopilots": "Marketing automatisé",
+    "campaigns": "Campagnes SMS",
+    "contests": "Jeux concours",
+    "customers": {
+      "analytics": "Statistiques",
+      "database": "Base clients",
+      "menu": "Clients"
+    },
+    "dashboard": "Tableau de bord",
+    "integrations": {
+      "marketplace": "Marketplace",
+      "menu": "Intégrations",
+      "tablets": "Tablettes"
+    },
+    "loyalty": {
+      "crm": "Parcours CRM",
+      "menu": "Fidélité",
+      "merchant": "Paramètres",
+      "rewards": "Programme de fidélité",
+      "surveys": "Sondages"
+    },
+    "missedCalls": {
+      "analytics": "Statistiques",
+      "menu": "Appels manqués",
+      "settings": "Paramètres"
+    },
+    "ordering": {
+      "coupon": "Code promo",
+      "menu": "Commande en ligne"
+    },
+    "reviews": {
+      "analytics": "Statistiques",
+      "listing": "Mes avis",
+      "menu": "Avis clients",
+      "settings": "Paramètres"
+    },
+    "settings": {
+      "exports": "Mes exports",
+      "help": "Aide",
+      "imports": "Mes imports",
+      "invoices": "Mes factures",
+      "menu": "Paramètres",
+      "progression": "Ma progression",
+      "store": "Ma boutique | Mes boutiques",
+      "users": "Mes utilisateurs",
+      "visualIdentity": "Ma charte graphique",
+      "language": "Langue"
+    }
+  },
+  "ui": {
+    "sidebar": {
+      "open": "Agrandir",
+      "close": "Réduire"
+    },
+    "button": {
+      "returnToList": "Retour à la liste"
+    },
+    "confirmModal": {
+      "buttons": {
+        "cancel": "Annuler",
+        "processing": "En cours...",
+        "save": "Valider"
+      },
+      "text": "Des modifications ont été apportées. Sauvegarder vos changements ?"
+    },
+    "dateRangePlaceholder": "Sélectionner une période",
+    "dropdownStore": {
+      "allStores": "Toutes les boutiques",
+      "noStore": "Aucune boutique",
+      "selectStores": "Sélectionner une boutique",
+      "store": "Une boutique | {count} boutiques",
+      "stringSearchPlaceholder": "Rechercher..."
+    },
+    "error": {
+      "strings": {
+        "incorrectPhoneNumber": "Le numéro de téléphone est incorrect",
+        "unauthorizedEmoji": "Les émojis ne sont pas autorisés 😢"
+      }
+    },
+    "imageUploader": {
+      "constraints": "Format PNG ou JPG, entre 5Ko et 1Mo",
+      "download": "télécharger un exemple",
+      "drag": "Glisser et déposer votre fichier pour télécharger ou",
+      "replace": "Remplacer le fichier",
+      "select": "Sélectionner un fichier",
+      "subtitle": "Vous pouvez importer vos clients à partir d'un fichier csv, ods, xls, xlsx ou",
+      "title": "Charger votre fichier"
+    },
+    "searchPlaceholder": "0612345678",
+    "soundPlayer": {
+      "error": {
+        "missingName": "Veuillez renseigner un nom d'audio"
+      }
+    },
+    "soundRecorder": {
+      "button": "Enregistrer maintenant",
+      "success": "Le fichier a été ajouté avec succès",
+      "title": "Enregistrez votre message vocal"
+    },
+    "soundUploader": {
+      "constraints": "Au format mp3",
+      "drag": "Glisser et déposer votre fichier pour télécharger ou",
+      "error": "Une erreur est survenue lors du téléchargement du fichier",
+      "replace": "Remplacer le fichier",
+      "select": "Sélectionner un fichier"
+    },
+    "table": {
+      "pagination": {
+        "next": "Page suivante",
+        "previous": "Page précédente"
+      }
+    }
+  },
+  "upsell": {
+    "modal": {
+      "store": "Boutique",
+      "pack": "Pack",
+      "price": "Prix HT (€)",
+      "total": {
+        "label": "Total HT",
+        "price": "{price}€",
+        "perMonth": "par mois"
+      },
+      "add": "Ajouter une boutique",
+      "mandate": "Vous serez prélevé automatiquement sur votre mandat",
+      "buttons": {
+        "reminder": "Être rappelé",
+        "activate": "Activer"
+      }
+    },
+    "smsPack": {
+      "title": "Nos Packs",
+      "subtitle": "Engagement de 12 mois",
+      "label": "{sms} SMS",
+      "popular": "Le plus populaire",
+      "pricePerSms": "{price}€ le SMS, soit",
+      "pricePerMonth": "{price}€/mois",
+      "continue": "Continuer 👉"
+    },
+    "banner": {
+      "smsPack": {
+        "title": "Écononomisez jusqu’à 45% sur le prix d’achat de vos SMS en profitant de notre ",
+        "underlinedOffer": "offre pack SMS",
+        "modal": {
+          "addPackTitle": "Ajouter un pack SMS",
+          "helperCard": {
+            "title": "Comment ça marche ?",
+            "step1": "Tous les sms facturés seront décomptés de ce pack",
+            "step2": "Votre pack est réinitialisé chaque début de mois"
+          },
+          "success": {
+            "title": "Félicitations !",
+            "text": "Le pack sera activé dès ce mois-ci.",
+            "linkText": "C’est noté 👌"
+          }
+        }
+      }
+    }
+  }
+}
