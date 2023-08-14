@@ -46,9 +46,6 @@ inputs:
   fallbackToDefaultLanguage:
     description: "Fallback to default language option"
     required: false
-  zip:
-    description: "Zip option for export"
-    required: false
   labels:
     description: "Labels for import"
     required: false
