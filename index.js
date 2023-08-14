@@ -220,19 +220,26 @@ async function run() {
     const files = core.getInput("files");
 
     const url = `${apiServer}/api/integration/v2/project/${projectID}/import`;
+    const params = {
+      format,
+      labels,
+      "path-separator": pathSeparator,
+      "skip-conflicting-values": skipConflictingValues,
+      collection,
+      "overwrite-conflicting-values": overwriteConflictingValues,
+      "auto-file-labels": autoFileLabels,
+    };
+
+    const filteredParams = Object.fromEntries(
+      Object.entries(params).filter(
+        ([key, value]) => value !== undefined && value !== null && value !== ""
+      )
+    );
 
     const options = {
       auth: auth,
       method: "POST",
-      params: {
-        format,
-        labels,
-        "path-separator": pathSeparator,
-        "skip-conflicting-values": skipConflictingValues,
-        collection,
-        "overwrite-conflicting-values": overwriteConflictingValues,
-        "auto-file-labels": autoFileLabels,
-      },
+      params: filteredParams,
       data: {
         files,
       },
