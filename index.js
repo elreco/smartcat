@@ -199,7 +199,7 @@ async function run() {
           owner,
           repo,
           path: filePath,
-          message: "Add export data",
+          message: "Update translation files from Smartcat",
           content,
           branch: newBranch,
           sha,
@@ -210,7 +210,7 @@ async function run() {
     await octokit.pulls.create({
       owner,
       repo,
-      title: "New export data",
+      title: "Export from Smartcart",
       head: newBranch,
       base: currentBranch,
     });
