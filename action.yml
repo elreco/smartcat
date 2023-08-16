@@ -74,4 +74,5 @@ runs:
   using: 'node16'
   main: 'index.js'
 branding:
-  icon: book-open
+  icon: 'globe'
+  color: 'green'
