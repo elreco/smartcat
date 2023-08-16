@@ -1,4 +1,4 @@
-name: "Smartcat"
+name: "Smartcat Translation"
 description: "Import and Export translation files using Smartcat API"
 inputs:
   actionType:
